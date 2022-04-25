@@ -1,12 +1,12 @@
 import React, { useContext, useRef, useState } from 'react';
-import type { ProFormColumnsType } from '@ant-design/pro-form';
-import { BetaSchemaForm } from '@ant-design/pro-form';
-import ProProvider from '@ant-design/pro-provider';
+import type { ProFormColumnsType } from '@galiojs/pro-form';
+import { BetaSchemaForm } from '@galiojs/pro-form';
+import ProProvider from '@galiojs/pro-provider';
 import type { InputRef } from 'antd';
 import { Input, Space, Tag } from 'antd';
-import ProTable from '@ant-design/pro-table';
-import ProDescriptions from '@ant-design/pro-descriptions';
-import ProCard from '@ant-design/pro-card';
+import ProTable from '@galiojs/pro-table';
+import ProDescriptions from '@galiojs/pro-descriptions';
+import ProCard from '@galiojs/pro-card';
 
 const valueEnum = {
   0: 'close',

@@ -6,7 +6,7 @@ import classNames from 'classnames';
 import type { ProFieldFC } from '../../index';
 import type { FieldSelectProps } from '../Select';
 import { ObjToMap, proFieldParsingText, useFieldFetchData } from '../Select';
-import { useIntl } from '@ant-design/pro-provider';
+import { useIntl } from '@galiojs/pro-provider';
 
 export type GroupProps = {
   options?: RadioGroupProps['options'];

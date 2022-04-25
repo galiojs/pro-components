@@ -1,8 +1,8 @@
 import { render, mount } from 'enzyme';
 import React, { useEffect, useMemo, useState } from 'react';
-import type { BasicLayoutProps } from '@ant-design/pro-layout';
+import type { BasicLayoutProps } from '@galiojs/pro-layout';
 import { render as libraryRender } from '@testing-library/react';
-import BasicLayout, { PageContainer, FooterToolbar } from '@ant-design/pro-layout';
+import BasicLayout, { PageContainer, FooterToolbar } from '@galiojs/pro-layout';
 import { act } from 'react-dom/test-utils';
 import { waitForComponentToPaint } from '../util';
 

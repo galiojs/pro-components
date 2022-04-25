@@ -6,7 +6,7 @@ import {
   useMountMergeState,
   runFunction,
   useRefFunction,
-} from '@ant-design/pro-utils';
+} from '@galiojs/pro-utils';
 import type { PageInfo, RequestData, UseFetchProps, UseFetchDataAction } from './typing';
 import { postDataPipeline } from './utils/index';
 

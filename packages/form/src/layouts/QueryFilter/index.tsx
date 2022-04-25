@@ -6,8 +6,8 @@ import type { FormItemProps, RowProps } from 'antd';
 import { Row, Col, Form, Divider, ConfigProvider } from 'antd';
 import type { FormInstance, FormProps } from 'antd/lib/form/Form';
 import RcResizeObserver from 'rc-resize-observer';
-import { useIntl } from '@ant-design/pro-provider';
-import { isBrowser, useMountMergeState } from '@ant-design/pro-utils';
+import { useIntl } from '@galiojs/pro-provider';
+import { isBrowser, useMountMergeState } from '@galiojs/pro-utils';
 import useMergedState from 'rc-util/lib/hooks/useMergedState';
 
 import type { CommonFormProps } from '../../BaseForm';

@@ -1,7 +1,7 @@
 import React, { useContext, useRef, useState } from 'react';
-import type { ProColumns } from '@ant-design/pro-table';
-import ProTable from '@ant-design/pro-table';
-import ProProvider from '@ant-design/pro-provider';
+import type { ProColumns } from '@galiojs/pro-table';
+import ProTable from '@galiojs/pro-table';
+import ProProvider from '@galiojs/pro-provider';
 import { Input, Space, Tag } from 'antd';
 import type { InputRef } from 'antd';
 

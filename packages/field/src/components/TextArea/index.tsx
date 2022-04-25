@@ -1,6 +1,6 @@
 import { Input } from 'antd';
 import React from 'react';
-import { useIntl } from '@ant-design/pro-provider';
+import { useIntl } from '@galiojs/pro-provider';
 
 import type { ProFieldFC } from '../../index';
 

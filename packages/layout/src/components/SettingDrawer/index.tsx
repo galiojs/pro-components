@@ -5,7 +5,7 @@ import {
   NotificationOutlined,
   SettingOutlined,
 } from '@ant-design/icons';
-import { isBrowser, merge } from '@ant-design/pro-utils';
+import { isBrowser, merge } from '@galiojs/pro-utils';
 import { useUrlSearchParams } from '@umijs/use-params';
 
 import { Button, Divider, Drawer, List, Switch, ConfigProvider, message, Alert } from 'antd';

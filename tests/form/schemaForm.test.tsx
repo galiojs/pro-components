@@ -1,7 +1,7 @@
 ﻿import React, { createRef } from 'react';
 import { mount } from 'enzyme';
-import { BetaSchemaForm } from '@ant-design/pro-form';
-import type { ProFormColumnsType, ProFormLayoutType } from '@ant-design/pro-form';
+import { BetaSchemaForm } from '@galiojs/pro-form';
+import type { ProFormColumnsType, ProFormLayoutType } from '@galiojs/pro-form';
 import { waitForComponentToPaint } from '../util';
 import { Input } from 'antd';
 import { act } from 'react-dom/test-utils';

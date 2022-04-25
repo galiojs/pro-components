@@ -10,7 +10,7 @@ import ProForm, {
   ProFormSlider,
   ProFormGroup,
   ProFormDigitRange,
-} from '@ant-design/pro-form';
+} from '@galiojs/pro-form';
 import Mock from 'mockjs';
 
 export const waitTime = (time: number = 100) => {

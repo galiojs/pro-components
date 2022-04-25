@@ -1,6 +1,6 @@
 import React from 'react';
 import { message } from 'antd';
-import ProForm, { ProFormSelect } from '@ant-design/pro-form';
+import ProForm, { ProFormSelect } from '@galiojs/pro-form';
 
 export default () => {
   return (

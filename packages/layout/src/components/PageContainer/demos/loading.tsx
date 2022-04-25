@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import { PageContainer } from '@ant-design/pro-layout';
+import { PageContainer } from '@galiojs/pro-layout';
 import { Card } from 'antd';
 
 export default () => {

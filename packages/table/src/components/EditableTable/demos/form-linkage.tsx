@@ -1,10 +1,10 @@
 import React, { useRef, useState } from 'react';
-import type { ActionType, ProColumns } from '@ant-design/pro-table';
-import { EditableProTable } from '@ant-design/pro-table';
-import type { ProFormInstance } from '@ant-design/pro-form';
-import { ProFormDigit } from '@ant-design/pro-form';
-import ProForm, { ProFormDependency } from '@ant-design/pro-form';
-import ProCard from '@ant-design/pro-card';
+import type { ActionType, ProColumns } from '@galiojs/pro-table';
+import { EditableProTable } from '@galiojs/pro-table';
+import type { ProFormInstance } from '@galiojs/pro-form';
+import { ProFormDigit } from '@galiojs/pro-form';
+import ProForm, { ProFormDependency } from '@galiojs/pro-form';
+import ProCard from '@galiojs/pro-card';
 import set from 'rc-util/lib/utils/set';
 
 type DataSourceType = {

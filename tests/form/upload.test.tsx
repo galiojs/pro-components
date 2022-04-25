@@ -1,5 +1,5 @@
 ﻿import React from 'react';
-import ProForm, { ProFormUploadButton, ProFormUploadDragger } from '@ant-design/pro-form';
+import ProForm, { ProFormUploadButton, ProFormUploadDragger } from '@galiojs/pro-form';
 import { mount } from 'enzyme';
 import mock from 'xhr-mock';
 import { act } from 'react-dom/test-utils';

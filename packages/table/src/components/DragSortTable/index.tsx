@@ -1,6 +1,6 @@
 import React, { useMemo, useCallback, useRef, useContext } from 'react';
 import { useDragSort } from '../../utils/useDragSort';
-import type { ParamsType } from '@ant-design/pro-provider';
+import type { ParamsType } from '@galiojs/pro-provider';
 import ProTable from '../../Table';
 import { SortableHandle } from 'react-sortable-hoc';
 import { MenuOutlined } from '@ant-design/icons';

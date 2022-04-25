@@ -1,6 +1,6 @@
 ﻿import React from 'react';
-import type { FormInstance, ProFormColumnsType } from '@ant-design/pro-form';
-import { BetaSchemaForm } from '@ant-design/pro-form';
+import type { FormInstance, ProFormColumnsType } from '@galiojs/pro-form';
+import { BetaSchemaForm } from '@galiojs/pro-form';
 import { useRef } from 'react';
 import { message } from 'antd';
 

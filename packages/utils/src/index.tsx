@@ -64,7 +64,7 @@ import type {
   ProFieldFCMode,
   ProFieldFCRenderProps,
   ProRenderFieldPropsType,
-} from '@ant-design/pro-provider';
+} from '@galiojs/pro-provider';
 import ErrorBoundary from './components/ErrorBoundary';
 import dateArrayFormatter from './dateArrayFormatter';
 import type { ProFormInstanceType } from './components/ProFormContext';

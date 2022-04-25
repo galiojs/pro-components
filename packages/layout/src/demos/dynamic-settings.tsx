@@ -2,8 +2,8 @@
 import { Button, Descriptions, Result, Avatar, Space, Statistic } from 'antd';
 import { LikeOutlined, UserOutlined } from '@ant-design/icons';
 
-import type { ProSettings } from '@ant-design/pro-layout';
-import ProLayout, { PageContainer, SettingDrawer } from '@ant-design/pro-layout';
+import type { ProSettings } from '@galiojs/pro-layout';
+import ProLayout, { PageContainer, SettingDrawer } from '@galiojs/pro-layout';
 import defaultProps from './_defaultProps';
 
 const content = (

@@ -1,6 +1,6 @@
 ﻿import React, { useState } from 'react';
-import type { ProFormColumnsType, ProFormLayoutType } from '@ant-design/pro-form';
-import { BetaSchemaForm, ProFormSelect } from '@ant-design/pro-form';
+import type { ProFormColumnsType, ProFormLayoutType } from '@galiojs/pro-form';
+import { BetaSchemaForm, ProFormSelect } from '@galiojs/pro-form';
 import moment from 'moment';
 import { Alert, DatePicker, Space } from 'antd';
 

@@ -7,7 +7,7 @@ import './index.less';
 
 import BaseMenu from '../SiderMenu/BaseMenu';
 import type { GlobalHeaderProps } from '../GlobalHeader';
-import { useDebounceFn } from '@ant-design/pro-utils';
+import { useDebounceFn } from '@galiojs/pro-utils';
 
 export type TopNavHeaderProps = SiderMenuProps & GlobalHeaderProps & PrivateSiderMenuProps;
 

@@ -1,7 +1,7 @@
 ﻿import React, { useState } from 'react';
 
-import ProDescriptions from '@ant-design/pro-descriptions';
-import ProCard from '@ant-design/pro-card';
+import ProDescriptions from '@galiojs/pro-descriptions';
+import ProCard from '@galiojs/pro-card';
 import ProForm, {
   ProFormDependency,
   ProFormDigit,
@@ -10,7 +10,7 @@ import ProForm, {
   ProFormSwitch,
   ProFormText,
   ProFormTextArea,
-} from '@ant-design/pro-form';
+} from '@galiojs/pro-form';
 
 const valueTypeArray = [
   'password',

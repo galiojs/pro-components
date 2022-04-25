@@ -13,7 +13,7 @@ import {
   ProFormDateTimeRangePicker,
   ProFormSlider,
   ProFormFieldSet,
-} from '@ant-design/pro-form';
+} from '@galiojs/pro-form';
 
 export default () => {
   const [mode, setMode] = React.useState<any>('topLeft');

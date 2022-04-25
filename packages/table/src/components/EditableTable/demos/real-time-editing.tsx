@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import type { ProColumns } from '@ant-design/pro-table';
-import { EditableProTable } from '@ant-design/pro-table';
-import ProCard from '@ant-design/pro-card';
+import type { ProColumns } from '@galiojs/pro-table';
+import { EditableProTable } from '@galiojs/pro-table';
+import ProCard from '@galiojs/pro-card';
 import { Button } from 'antd';
-import { ProFormField } from '@ant-design/pro-form';
+import { ProFormField } from '@galiojs/pro-form';
 
 type DataSourceType = {
   id: React.Key;

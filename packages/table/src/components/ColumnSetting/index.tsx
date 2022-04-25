@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useMemo, useRef } from 'react';
-import { useIntl } from '@ant-design/pro-provider';
+import { useIntl } from '@galiojs/pro-provider';
 import {
   SettingOutlined,
   VerticalAlignMiddleOutlined,
@@ -18,7 +18,7 @@ import { genColumnKey } from '../../utils/index';
 import type { ProColumns } from '../../typing';
 
 import './index.less';
-import { useRefFunction } from '@ant-design/pro-utils';
+import { useRefFunction } from '@galiojs/pro-utils';
 import type { CheckboxChangeEvent } from 'antd/lib/checkbox';
 
 type ColumnSettingProps<T = any> = {

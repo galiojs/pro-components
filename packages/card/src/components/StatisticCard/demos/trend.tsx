@@ -1,5 +1,5 @@
 import React from 'react';
-import { StatisticCard } from '@ant-design/pro-card';
+import { StatisticCard } from '@galiojs/pro-card';
 
 const { Statistic } = StatisticCard;
 

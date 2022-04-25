@@ -8,7 +8,7 @@ import type {
   ProFieldValueType,
   ProSchema,
   SearchConvertKeyFn,
-} from '@ant-design/pro-utils';
+} from '@galiojs/pro-utils';
 import type { ColProps } from 'antd/lib/grid/col';
 
 export interface ProFormGridConfig {

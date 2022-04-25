@@ -5,7 +5,7 @@ import set from 'rc-util/lib/utils/set';
 import get from 'rc-util/lib/utils/get';
 import { useContext, useMemo } from 'react';
 import { FormListContext } from '../List';
-import { ProFormContext, isDeepEqualReact, merge } from '@ant-design/pro-utils';
+import { ProFormContext, isDeepEqualReact, merge } from '@galiojs/pro-utils';
 import type { ProFormInstance } from '../../BaseForm';
 
 declare type RenderChildren<Values = any> = (

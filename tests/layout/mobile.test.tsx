@@ -1,6 +1,6 @@
 ﻿import { mount, render } from 'enzyme';
 import React from 'react';
-import BasicLayout from '@ant-design/pro-layout';
+import BasicLayout from '@galiojs/pro-layout';
 import { act } from 'react-dom/test-utils';
 
 import defaultProps from './defaultProps';

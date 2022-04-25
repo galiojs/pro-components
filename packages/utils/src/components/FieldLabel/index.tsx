@@ -3,7 +3,7 @@ import { DownOutlined, CloseOutlined } from '@ant-design/icons';
 import classNames from 'classnames';
 import type { SizeType } from 'antd/lib/config-provider/SizeContext';
 import { ConfigProvider } from 'antd';
-import { useIntl } from '@ant-design/pro-provider';
+import { useIntl } from '@galiojs/pro-provider';
 import './index.less';
 
 export type FieldLabelProps = {

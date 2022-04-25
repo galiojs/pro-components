@@ -3,7 +3,7 @@ import type { SelectProps } from 'antd';
 import { Select, ConfigProvider } from 'antd';
 import classNames from 'classnames';
 import type { LabeledValue } from 'antd/es/select';
-import type { RequestOptionsType } from '@ant-design/pro-utils';
+import type { RequestOptionsType } from '@galiojs/pro-utils';
 
 const { Option, OptGroup } = Select;
 

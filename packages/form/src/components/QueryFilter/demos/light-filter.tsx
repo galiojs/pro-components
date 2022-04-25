@@ -14,7 +14,7 @@ import {
   ProFormFieldSet,
   ProFormTreeSelect,
   ProFormCascader,
-} from '@ant-design/pro-form';
+} from '@galiojs/pro-form';
 import { Radio, TreeSelect } from 'antd';
 import type { SizeType } from 'antd/lib/config-provider/SizeContext';
 import moment from 'moment';

@@ -4,7 +4,7 @@
 
 import React, { useState } from 'react';
 import { Radio } from 'antd';
-import { CheckCard } from '@ant-design/pro-card';
+import { CheckCard } from '@galiojs/pro-card';
 
 export default () => {
   const [size, setSize] = useState('default' as 'default');

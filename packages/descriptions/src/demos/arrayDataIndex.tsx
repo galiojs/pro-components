@@ -1,8 +1,8 @@
 import React, { useRef } from 'react';
 import { Button } from 'antd';
 
-import type { ProDescriptionsActionType } from '@ant-design/pro-descriptions';
-import ProDescriptions from '@ant-design/pro-descriptions';
+import type { ProDescriptionsActionType } from '@galiojs/pro-descriptions';
+import ProDescriptions from '@galiojs/pro-descriptions';
 
 export default () => {
   const actionRef = useRef<ProDescriptionsActionType>();

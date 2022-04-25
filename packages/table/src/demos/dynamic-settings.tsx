@@ -10,13 +10,13 @@ import ProForm, {
   ProFormGroup,
   ProFormDependency,
   ProFormTextArea,
-} from '@ant-design/pro-form';
-import type { ProColumnType } from '@ant-design/pro-table';
-import ProTable from '@ant-design/pro-table';
-import { useDebounceFn } from '@ant-design/pro-utils';
-import ProCard from '@ant-design/pro-card';
+} from '@galiojs/pro-form';
+import type { ProColumnType } from '@galiojs/pro-table';
+import ProTable from '@galiojs/pro-table';
+import { useDebounceFn } from '@galiojs/pro-utils';
+import ProCard from '@galiojs/pro-card';
 import { Button } from 'antd';
-import type { ProFormInstance } from '@ant-design/pro-form';
+import type { ProFormInstance } from '@galiojs/pro-form';
 
 const valueTypeArray = [
   'password',

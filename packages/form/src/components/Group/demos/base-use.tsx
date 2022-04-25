@@ -1,5 +1,5 @@
 ﻿import React from 'react';
-import ProForm, { ProFormList, ProFormText, ProFormDependency } from '@ant-design/pro-form';
+import ProForm, { ProFormList, ProFormText, ProFormDependency } from '@galiojs/pro-form';
 import { Button } from 'antd';
 
 const Demo = () => {

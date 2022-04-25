@@ -1,5 +1,5 @@
 import React from 'react';
-import ProForm, { ProFormText } from '@ant-design/pro-form';
+import ProForm, { ProFormText } from '@galiojs/pro-form';
 import { act } from 'react-dom/test-utils';
 
 import { mount } from 'enzyme';

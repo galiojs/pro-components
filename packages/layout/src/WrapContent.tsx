@@ -1,8 +1,8 @@
 import type { CSSProperties } from 'react';
 import React from 'react';
 import { Layout } from 'antd';
-import { ConfigProviderWrap } from '@ant-design/pro-provider';
-import { ErrorBoundary } from '@ant-design/pro-utils';
+import { ConfigProviderWrap } from '@galiojs/pro-provider';
+import { ErrorBoundary } from '@galiojs/pro-utils';
 
 const WrapContent: React.FC<{
   autoClearCache?: boolean;

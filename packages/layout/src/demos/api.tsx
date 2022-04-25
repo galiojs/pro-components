@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Switch, Avatar } from 'antd';
-import ProLayout, { PageContainer, DefaultFooter } from '@ant-design/pro-layout';
+import ProLayout, { PageContainer, DefaultFooter } from '@galiojs/pro-layout';
 import defaultProps from './_defaultProps';
 import { GithubOutlined } from '@ant-design/icons';
 

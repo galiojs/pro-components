@@ -8,8 +8,8 @@ import ProForm, {
   ProFormCheckbox,
   ProFormDateRangePicker,
   ProFormDependency,
-} from '@ant-design/pro-form';
-import ProCard from '@ant-design/pro-card';
+} from '@galiojs/pro-form';
+import ProCard from '@galiojs/pro-card';
 import { Button, message } from 'antd';
 
 const waitTime = (time: number = 100) => {

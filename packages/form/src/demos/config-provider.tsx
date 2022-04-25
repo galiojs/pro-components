@@ -10,7 +10,7 @@ import ProForm, {
   ProFormSlider,
   ProFormUploadDragger,
   ProFormText,
-} from '@ant-design/pro-form';
+} from '@galiojs/pro-form';
 import React from 'react';
 import { SmileOutlined } from '@ant-design/icons';
 import { LightWrapper } from '../BaseForm';

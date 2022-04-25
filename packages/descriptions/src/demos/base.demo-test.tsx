@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ProDescriptions from '@ant-design/pro-descriptions';
+import ProDescriptions from '@galiojs/pro-descriptions';
 import { Button } from 'antd';
 
 export default () => {

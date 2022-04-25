@@ -2,8 +2,8 @@ import React, { useEffect, useMemo } from 'react';
 import { ReloadOutlined, SettingOutlined } from '@ant-design/icons';
 import type { TableColumnType } from 'antd';
 import { Tooltip } from 'antd';
-import type { IntlType } from '@ant-design/pro-provider';
-import { useIntl } from '@ant-design/pro-provider';
+import type { IntlType } from '@galiojs/pro-provider';
+import { useIntl } from '@galiojs/pro-provider';
 import type { ListToolBarProps } from '../ListToolBar';
 import ListToolBar from '../ListToolBar';
 import ColumnSetting from '../ColumnSetting';
@@ -12,7 +12,7 @@ import FullScreenIcon from './FullscreenIcon';
 import DensityIcon from './DensityIcon';
 import Container from '../../container';
 import type { ActionType, ProTableProps, OptionSearchProps } from '../../typing';
-import { omitUndefined, isDeepEqualReact } from '@ant-design/pro-utils';
+import { omitUndefined, isDeepEqualReact } from '@galiojs/pro-utils';
 import type { LabelTooltipType } from 'antd/lib/form/FormItemLabel';
 
 export type OptionConfig = {

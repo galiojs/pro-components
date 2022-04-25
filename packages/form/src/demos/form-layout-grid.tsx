@@ -9,7 +9,7 @@ import ProForm, {
   ProFormSelect,
   ProFormSwitch,
   ProFormTextArea,
-} from '@ant-design/pro-form';
+} from '@galiojs/pro-form';
 import type { FormLayout } from 'antd/lib/form/Form';
 
 const LAYOUT_TYPE_HORIZONTAL = 'horizontal';

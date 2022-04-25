@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import type { ProColumns } from '@ant-design/pro-table';
-import { DragSortTable } from '@ant-design/pro-table';
+import type { ProColumns } from '@galiojs/pro-table';
+import { DragSortTable } from '@galiojs/pro-table';
 import { MenuOutlined } from '@ant-design/icons';
 import { message } from 'antd';
 

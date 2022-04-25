@@ -4,7 +4,7 @@ import ProForm, {
   ProFormDependency,
   ProFormGroup,
   ProFormList,
-} from '@ant-design/pro-form';
+} from '@galiojs/pro-form';
 import { Form } from 'antd';
 import type { NamePath } from 'antd/es/form/interface';
 

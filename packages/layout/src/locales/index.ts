@@ -1,4 +1,4 @@
-import { isBrowser } from '@ant-design/pro-utils';
+import { isBrowser } from '@galiojs/pro-utils';
 import zhLocal from './zh-CN';
 import zhTWLocal from './zh-TW';
 import enUSLocal from './en-US';

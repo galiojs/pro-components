@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { SortableContainer, SortableElement, SortableHandle } from 'react-sortable-hoc';
 import { MenuOutlined } from '@ant-design/icons';
-import type { ProColumns } from '@ant-design/pro-table';
-import ProTable from '@ant-design/pro-table';
+import type { ProColumns } from '@galiojs/pro-table';
+import ProTable from '@galiojs/pro-table';
 import './drag.less';
-import { arrayMoveImmutable } from '@ant-design/pro-utils';
+import { arrayMoveImmutable } from '@galiojs/pro-utils';
 
 const DragHandle = SortableHandle(() => <MenuOutlined style={{ cursor: 'grab', color: '#999' }} />);
 

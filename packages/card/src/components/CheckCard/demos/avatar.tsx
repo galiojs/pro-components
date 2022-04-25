@@ -3,7 +3,7 @@
  */
 
 import React from 'react';
-import { CheckCard } from '@ant-design/pro-card';
+import { CheckCard } from '@galiojs/pro-card';
 import { Avatar } from 'antd';
 import { UserOutlined } from '@ant-design/icons';
 

@@ -1,11 +1,11 @@
 import React, { useRef, useState } from 'react';
-import type { ProColumns } from '@ant-design/pro-table';
-import { EditableProTable } from '@ant-design/pro-table';
-import type { ActionType } from '@ant-design/pro-table';
-import ProCard from '@ant-design/pro-card';
+import type { ProColumns } from '@galiojs/pro-table';
+import { EditableProTable } from '@galiojs/pro-table';
+import type { ActionType } from '@galiojs/pro-table';
+import ProCard from '@galiojs/pro-card';
 import { Button, Input, Space, Tag, Form } from 'antd';
 import { PlusOutlined } from '@ant-design/icons';
-import { ProFormField } from '@ant-design/pro-form';
+import { ProFormField } from '@galiojs/pro-form';
 import type { InputRef } from 'antd';
 
 const waitTime = (time: number = 100) => {

@@ -8,7 +8,7 @@ import type { ActionType } from './typing';
 import type { TableColumnType } from 'antd';
 import { genColumnKey } from './utils';
 import { noteOnce } from 'rc-util/lib/warning';
-import type { ProFormInstance } from '@ant-design/pro-form';
+import type { ProFormInstance } from '@galiojs/pro-form';
 
 export type ColumnsState = {
   show?: boolean;

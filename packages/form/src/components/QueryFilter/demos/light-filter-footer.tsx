@@ -1,5 +1,5 @@
 import React from 'react';
-import { LightFilter, ProFormText } from '@ant-design/pro-form';
+import { LightFilter, ProFormText } from '@galiojs/pro-form';
 import { Button, Radio, Space } from 'antd';
 import type { SizeType } from 'antd/lib/config-provider/SizeContext';
 

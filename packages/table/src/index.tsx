@@ -1,4 +1,4 @@
-import type { IntlType } from '@ant-design/pro-provider';
+import type { IntlType } from '@galiojs/pro-provider';
 import {
   ConfigProviderWrap,
   ConfigProvider,
@@ -17,10 +17,10 @@ import {
   zhTWIntl,
   frFRIntl,
   ptBRIntl,
-} from '@ant-design/pro-provider';
-import type { ProFieldValueType, RowEditableConfig } from '@ant-design/pro-utils';
+} from '@galiojs/pro-provider';
+import type { ProFieldValueType, RowEditableConfig } from '@galiojs/pro-utils';
 
-import { FieldStatus, FieldIndexColumn } from '@ant-design/pro-field';
+import { FieldStatus, FieldIndexColumn } from '@galiojs/pro-field';
 import ProTable from './Table';
 import TableDropdown from './components/Dropdown';
 import type { ListToolBarProps } from './components/ListToolBar';

@@ -5,7 +5,7 @@ import ProForm, {
   ProFormSelect,
   ProFormDigit,
   ProFormSlider,
-} from '@ant-design/pro-form';
+} from '@galiojs/pro-form';
 import { Radio } from 'antd';
 import type { SizeType } from 'antd/lib/config-provider/SizeContext';
 import moment from 'moment';

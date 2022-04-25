@@ -1,6 +1,6 @@
 ﻿import React, { useState } from 'react';
-import { BetaSchemaForm, ProFormSelect } from '@ant-design/pro-form';
-import type { ProFieldValueType } from '@ant-design/pro-utils';
+import { BetaSchemaForm, ProFormSelect } from '@galiojs/pro-form';
+import type { ProFieldValueType } from '@galiojs/pro-utils';
 
 const valueEnum = {
   all: { text: '全部', status: 'Default' },

@@ -1,11 +1,11 @@
 import React, { useContext, useRef, useState } from 'react';
-import type { ProFormColumnsType } from '@ant-design/pro-form';
-import { BetaSchemaForm } from '@ant-design/pro-form';
-import ProProvider from '@ant-design/pro-provider';
+import type { ProFormColumnsType } from '@galiojs/pro-form';
+import { BetaSchemaForm } from '@galiojs/pro-form';
+import ProProvider from '@galiojs/pro-provider';
 import { Input, Space, Tag } from 'antd';
 import type { InputRef } from 'antd';
 
-declare module '@ant-design/pro-utils' {
+declare module '@galiojs/pro-utils' {
   interface ProFieldValueTypeWithFieldProps {
     tags: Record<string, any>;
     link: {

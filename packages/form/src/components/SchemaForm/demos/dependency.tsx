@@ -1,6 +1,6 @@
 ﻿import React from 'react';
-import type { ProFormColumnsType } from '@ant-design/pro-form';
-import { BetaSchemaForm } from '@ant-design/pro-form';
+import type { ProFormColumnsType } from '@galiojs/pro-form';
+import { BetaSchemaForm } from '@galiojs/pro-form';
 
 const valueEnum = {
   money: { text: '按金额' },

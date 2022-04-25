@@ -1,7 +1,7 @@
 /** Title: 基本使用 */
 
 import React from 'react';
-import { CheckCard } from '@ant-design/pro-card';
+import { CheckCard } from '@galiojs/pro-card';
 
 export default () => (
   <CheckCard

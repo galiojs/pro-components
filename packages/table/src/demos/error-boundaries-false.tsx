@@ -1,7 +1,7 @@
 ﻿import React from 'react';
 import { EllipsisOutlined } from '@ant-design/icons';
-import type { ProColumns } from '@ant-design/pro-table';
-import ProTable from '@ant-design/pro-table';
+import type { ProColumns } from '@galiojs/pro-table';
+import ProTable from '@galiojs/pro-table';
 
 export type TableListItem = {
   key: number;

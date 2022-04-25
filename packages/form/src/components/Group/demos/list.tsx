@@ -8,7 +8,7 @@ import ProForm, {
   ProFormSelect,
   ProFormDatePicker,
   ProFormGroup,
-} from '@ant-design/pro-form';
+} from '@galiojs/pro-form';
 
 const Demo = () => {
   const [position, setPosition] = useState<'bottom' | 'top'>('bottom');

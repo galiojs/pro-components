@@ -1,5 +1,5 @@
 ﻿import React from 'react';
-import { ProFormText, ModalForm } from '@ant-design/pro-form';
+import { ProFormText, ModalForm } from '@galiojs/pro-form';
 import { Button } from 'antd';
 import { act } from 'react-dom/test-utils';
 import { render } from '@testing-library/react';

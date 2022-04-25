@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { message, Row, Col, Space } from 'antd';
-import ProForm, { ProFormText, ProFormRadio } from '@ant-design/pro-form';
+import ProForm, { ProFormText, ProFormRadio } from '@galiojs/pro-form';
 
 type LayoutType = Parameters<typeof ProForm>[0]['layout'];
 const LAYOUT_TYPE_HORIZONTAL = 'horizontal';

@@ -11,13 +11,13 @@ import type { FormProps, FormItemProps, FormInstance } from 'antd';
 import { Spin } from 'antd';
 import { ConfigProvider } from 'antd';
 import { Form } from 'antd';
-import { ConfigProviderWrap } from '@ant-design/pro-provider';
+import { ConfigProviderWrap } from '@galiojs/pro-provider';
 import type {
   ProFieldValueType,
   SearchTransformKeyFn,
   ProRequestData,
   ProFormInstanceType,
-} from '@ant-design/pro-utils';
+} from '@galiojs/pro-utils';
 import set from 'rc-util/lib/utils/set';
 import {
   conversionMomentValue,
@@ -28,7 +28,7 @@ import {
   useFetchData,
   isDeepEqualReact,
   usePrevious,
-} from '@ant-design/pro-utils';
+} from '@galiojs/pro-utils';
 
 import { useUrlSearchParams } from '@umijs/use-params';
 import type { NamePath } from 'antd/lib/form/interface';

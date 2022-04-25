@@ -4,7 +4,7 @@ import ProForm, {
   ProFormDependency,
   ProFormList,
   ProFormText,
-} from '@ant-design/pro-form';
+} from '@galiojs/pro-form';
 
 const Demo = () => {
   return (

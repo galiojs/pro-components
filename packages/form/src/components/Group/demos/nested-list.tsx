@@ -1,6 +1,6 @@
 ﻿import React from 'react';
-import ProForm, { ProFormGroup, ProFormList, ProFormText } from '@ant-design/pro-form';
-import ProCard from '@ant-design/pro-card';
+import ProForm, { ProFormGroup, ProFormList, ProFormText } from '@galiojs/pro-form';
+import ProCard from '@galiojs/pro-card';
 
 const Demo = () => {
   return (

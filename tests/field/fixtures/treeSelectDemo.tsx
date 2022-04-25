@@ -1,4 +1,4 @@
-import Field from '@ant-design/pro-field';
+import Field from '@galiojs/pro-field';
 import type { TreeSelectProps } from 'antd';
 import { waitTime } from '../../util';
 import React from 'react';

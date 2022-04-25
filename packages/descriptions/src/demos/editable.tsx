@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import { Input, Tooltip } from 'antd';
 
-import ProDescriptions from '@ant-design/pro-descriptions';
+import ProDescriptions from '@galiojs/pro-descriptions';
 
 export default () => {
   const actionRef = useRef();

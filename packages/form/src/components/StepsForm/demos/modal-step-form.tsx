@@ -7,7 +7,7 @@ import ProForm, {
   ProFormSelect,
   ProFormTextArea,
   ProFormCheckbox,
-} from '@ant-design/pro-form';
+} from '@galiojs/pro-form';
 import { Button, message, Modal } from 'antd';
 import { PlusOutlined } from '@ant-design/icons';
 

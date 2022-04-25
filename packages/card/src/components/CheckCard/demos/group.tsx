@@ -3,7 +3,7 @@
  */
 
 import React from 'react';
-import { CheckCard } from '@ant-design/pro-card';
+import { CheckCard } from '@galiojs/pro-card';
 
 export default () => (
   <div style={{ padding: 24, backgroundColor: '#F0F2F5' }}>

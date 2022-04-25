@@ -1,7 +1,7 @@
 {
-  "name": "@ant-design/pro-layout",
+  "name": "@galiojs/pro-layout",
   "version": "6.36.1",
-  "description": "@ant-design/pro-layout",
+  "description": "@galiojs/pro-layout",
   "keywords": [
     "antd",
     "admin",
@@ -34,8 +34,8 @@
   ],
   "dependencies": {
     "@ant-design/icons": "^4.0.0",
-    "@ant-design/pro-provider": "1.6.4",
-    "@ant-design/pro-utils": "1.39.3",
+    "@galiojs/pro-provider": "1.6.4",
+    "@galiojs/pro-utils": "1.39.3",
     "@babel/runtime": "^7.16.3",
     "@umijs/route-utils": "^2.1.0",
     "@umijs/ssr-darkreader": "^4.9.44",

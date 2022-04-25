@@ -2,8 +2,8 @@
 import type { ErrorInfo } from 'react';
 import { Button, Result, Switch } from 'antd';
 import { EllipsisOutlined } from '@ant-design/icons';
-import type { ProColumns } from '@ant-design/pro-table';
-import ProTable from '@ant-design/pro-table';
+import type { ProColumns } from '@galiojs/pro-table';
+import ProTable from '@galiojs/pro-table';
 
 class CustomBoundary extends React.Component<
   Record<string, any>,

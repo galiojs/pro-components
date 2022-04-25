@@ -1,5 +1,5 @@
 import React from 'react';
-import BasicLayout from '@ant-design/pro-layout';
+import BasicLayout from '@galiojs/pro-layout';
 import { waitForComponentToPaint, waitTime } from '../util';
 import { render } from '@testing-library/react';
 import { act } from 'react-dom/test-utils';

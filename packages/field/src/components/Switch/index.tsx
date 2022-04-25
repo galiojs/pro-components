@@ -3,7 +3,7 @@ import type { SwitchProps } from 'antd';
 import { Switch } from 'antd';
 import Omit from 'omit.js';
 import type { ProFieldFC } from '../../index';
-import { useIntl } from '@ant-design/pro-provider';
+import { useIntl } from '@galiojs/pro-provider';
 
 /**
  * 评分组件

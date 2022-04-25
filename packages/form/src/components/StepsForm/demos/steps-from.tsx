@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import type { ProFormInstance } from '@ant-design/pro-form';
+import type { ProFormInstance } from '@galiojs/pro-form';
 import ProForm, {
   StepsForm,
   ProFormText,
@@ -8,8 +8,8 @@ import ProForm, {
   ProFormTextArea,
   ProFormCheckbox,
   ProFormDateRangePicker,
-} from '@ant-design/pro-form';
-import ProCard from '@ant-design/pro-card';
+} from '@galiojs/pro-form';
+import ProCard from '@galiojs/pro-card';
 import { message } from 'antd';
 
 const waitTime = (time: number = 100) => {

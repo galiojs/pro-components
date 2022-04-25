@@ -1,6 +1,6 @@
 import './index.less';
 
-export { ProFormContext } from '@ant-design/pro-utils';
+export { ProFormContext } from '@galiojs/pro-utils';
 
 export type {
   FormInstance,

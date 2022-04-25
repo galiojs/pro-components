@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Card, Input, Tabs } from 'antd';
 import { UpOutlined, DownOutlined } from '@ant-design/icons';
-import ProForm, { QueryFilter, ProFormText, ProFormDatePicker } from '@ant-design/pro-form';
+import ProForm, { QueryFilter, ProFormText, ProFormDatePicker } from '@galiojs/pro-form';
 import styles from './search-filter.module.less';
 
 const { TabPane } = Tabs;

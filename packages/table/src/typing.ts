@@ -1,5 +1,5 @@
-﻿import type { ProFieldEmptyText } from '@ant-design/pro-field';
-import type { LightWrapperProps, ProFormProps, QueryFilterProps } from '@ant-design/pro-form';
+﻿import type { ProFieldEmptyText } from '@galiojs/pro-field';
+import type { LightWrapperProps, ProFormProps, QueryFilterProps } from '@galiojs/pro-form';
 import type {
   ProCoreActionType,
   ProSchema,
@@ -7,7 +7,7 @@ import type {
   SearchTransformKeyFn,
   ProTableEditableFnType,
   RowEditableConfig,
-} from '@ant-design/pro-utils';
+} from '@galiojs/pro-utils';
 import type { SpinProps } from 'antd/lib/spin';
 import type { TableProps } from 'antd/lib/table';
 
@@ -24,7 +24,7 @@ import type { SizeType } from 'antd/lib/config-provider/SizeContext';
 import type { NamePath } from 'antd/lib/form/interface';
 import type React from 'react';
 import type { SearchProps } from 'antd/lib/input';
-import type { ProCardProps } from '@ant-design/pro-card';
+import type { ProCardProps } from '@galiojs/pro-card';
 
 export type PageInfo = {
   pageSize: number;

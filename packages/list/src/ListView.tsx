@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import type { ListProps, TableColumnType, TableProps } from 'antd';
 import { ConfigProvider, List } from 'antd';
 import type { GetRowKey } from 'antd/lib/table/interface';
-import type { ActionType } from '@ant-design/pro-table';
+import type { ActionType } from '@galiojs/pro-table';
 import type { GetComponentProps } from './index';
 import get from 'rc-util/lib/utils/get';
 import useLazyKVMap from 'antd/lib/table/hooks/useLazyKVMap';
@@ -12,7 +12,7 @@ import type { ItemProps } from './Item';
 import ProListItem from './Item';
 import { PRO_LIST_KEYS_MAP } from './constants';
 import classNames from 'classnames';
-import type { ProCardProps } from '@ant-design/pro-card';
+import type { ProCardProps } from '@galiojs/pro-card';
 
 type AntdListProps<RecordType> = Omit<ListProps<RecordType>, 'rowKey'>;
 type Key = React.Key;

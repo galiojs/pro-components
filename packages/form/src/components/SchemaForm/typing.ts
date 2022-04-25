@@ -3,7 +3,7 @@ import type {
   ProSchema,
   ProSchemaComponentTypes,
   SearchTransformKeyFn,
-} from '@ant-design/pro-utils';
+} from '@galiojs/pro-utils';
 import type { FormInstance, FormProps } from 'antd';
 import type { NamePath } from 'antd/lib/form/interface';
 import type { CommonFormProps } from '../../BaseForm';

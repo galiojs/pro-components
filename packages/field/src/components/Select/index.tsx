@@ -16,16 +16,16 @@ import type {
   ProSchemaValueEnumMap,
   ProSchemaValueEnumObj,
   RequestOptionsType,
-} from '@ant-design/pro-utils';
+} from '@galiojs/pro-utils';
 
 import {
   nanoid,
   useDeepCompareEffect,
   useMountMergeState,
   useDebounceValue,
-} from '@ant-design/pro-utils';
+} from '@galiojs/pro-utils';
 
-import { useIntl } from '@ant-design/pro-provider';
+import { useIntl } from '@galiojs/pro-provider';
 
 import LightSelect from './LightSelect';
 import SearchSelect from './SearchSelect';

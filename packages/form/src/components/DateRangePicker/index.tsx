@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import type { RangePickerProps } from 'antd/lib/date-picker';
 import ProField from '../Field';
-import { dateArrayFormatter } from '@ant-design/pro-utils';
+import { dateArrayFormatter } from '@galiojs/pro-utils';
 import type { ProFormFieldItemProps } from '../../interface';
 import FieldContext from '../../FieldContext';
 

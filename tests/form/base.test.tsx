@@ -1,8 +1,8 @@
 import React, { useRef, useEffect } from 'react';
 import { Button, ConfigProvider, Input } from 'antd';
-import type { ProFormInstance } from '@ant-design/pro-form';
-import { ProFormDateTimePicker } from '@ant-design/pro-form';
-import { ProFormDigitRange } from '@ant-design/pro-form';
+import type { ProFormInstance } from '@galiojs/pro-form';
+import { ProFormDateTimePicker } from '@galiojs/pro-form';
+import { ProFormDigitRange } from '@galiojs/pro-form';
 import ProForm, {
   ProFormText,
   ProFormCaptcha,
@@ -11,7 +11,7 @@ import ProForm, {
   ProFormSelect,
   ProFormColorPicker,
   ProFormField,
-} from '@ant-design/pro-form';
+} from '@galiojs/pro-form';
 import { act } from 'react-dom/test-utils';
 import { FontSizeOutlined } from '@ant-design/icons';
 import { mount } from 'enzyme';

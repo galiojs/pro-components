@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ProLayout, { PageContainer } from '@ant-design/pro-layout';
+import ProLayout, { PageContainer } from '@galiojs/pro-layout';
 
 export default () => (
   <div

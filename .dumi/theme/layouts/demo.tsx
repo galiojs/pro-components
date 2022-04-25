@@ -1,5 +1,5 @@
 ﻿import React from 'react';
-import { SettingDrawer } from '@ant-design/pro-layout';
+import { SettingDrawer } from '@galiojs/pro-layout';
 import { isBrowser } from 'umi';
 
 export default ({ children, location, ...rest }) => {

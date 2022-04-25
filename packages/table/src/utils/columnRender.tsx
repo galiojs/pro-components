@@ -5,17 +5,17 @@ import type {
   ProSchemaComponentTypes,
   ProTableEditableFnType,
   UseEditableUtilType,
-} from '@ant-design/pro-utils';
-import { isNil, genCopyable, isDeepEqualReact } from '@ant-design/pro-utils';
-import type { ProFieldEmptyText } from '@ant-design/pro-field';
+} from '@galiojs/pro-utils';
+import { isNil, genCopyable, isDeepEqualReact } from '@galiojs/pro-utils';
+import type { ProFieldEmptyText } from '@galiojs/pro-field';
 import cellRenderToFromItem from './cellRenderToFromItem';
-import { LabelIconTip } from '@ant-design/pro-utils';
+import { LabelIconTip } from '@galiojs/pro-utils';
 import get from 'rc-util/lib/utils/get';
 
 import type { ActionType, ProColumns } from '../typing';
 import type { useContainer } from '../container';
 import { isMergeCell } from '.';
-import type { ProFormInstance } from '@ant-design/pro-form';
+import type { ProFormInstance } from '@galiojs/pro-form';
 
 /** 转化列的定义 */
 type ColumnRenderInterface<T> = {

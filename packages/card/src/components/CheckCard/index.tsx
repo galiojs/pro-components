@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useContext } from 'react';
 import classNames from 'classnames';
 import { Avatar, ConfigProvider } from 'antd';
-import { useMountMergeState } from '@ant-design/pro-utils';
+import { useMountMergeState } from '@galiojs/pro-utils';
 import CheckCardGroup, { CardLoading, CheckCardGroupConnext } from './Group';
 import type { CheckCardGroupProps } from './Group';
 

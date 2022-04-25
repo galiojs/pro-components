@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import type { SelectProps } from 'antd';
 import ProFormField from '../Field';
-import { runFunction } from '@ant-design/pro-utils';
+import { runFunction } from '@galiojs/pro-utils';
 import type { ProFormFieldItemProps, ProFormFieldRemoteProps } from '../../interface';
 import FieldContext from '../../FieldContext';
 

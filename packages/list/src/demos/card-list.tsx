@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Progress, Tag } from 'antd';
-import ProList from '@ant-design/pro-list';
-import { ProFormRadio, ProFormSwitch } from '@ant-design/pro-form';
+import ProList from '@galiojs/pro-list';
+import { ProFormRadio, ProFormSwitch } from '@galiojs/pro-form';
 
 const data = [
   '语雀的天空',

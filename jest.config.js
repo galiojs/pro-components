@@ -8,7 +8,7 @@ const moduleNameMapper = {
 };
 
 pkgList.forEach((shortName) => {
-  const name = `@ant-design/pro-${shortName}`;
+  const name = `@galiojs/pro-${shortName}`;
   moduleNameMapper[name] = join(__dirname, `./packages/${shortName}/src`);
 });
 

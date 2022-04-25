@@ -1,5 +1,5 @@
 import React from 'react';
-import ProLayout, { DefaultFooter, PageContainer } from '@ant-design/pro-layout';
+import ProLayout, { DefaultFooter, PageContainer } from '@galiojs/pro-layout';
 import defaultProps from './_defaultProps';
 
 export default () => (

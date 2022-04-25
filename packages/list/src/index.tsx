@@ -1,8 +1,8 @@
 import React, { useMemo, useContext, useRef, useImperativeHandle } from 'react';
 import type { ListProps, PaginationProps } from 'antd';
 import classNames from 'classnames';
-import type { ProTableProps, ProColumnType, ActionType } from '@ant-design/pro-table';
-import ProTable from '@ant-design/pro-table';
+import type { ProTableProps, ProColumnType, ActionType } from '@galiojs/pro-table';
+import ProTable from '@galiojs/pro-table';
 import { ConfigProvider } from 'antd';
 import type { LabelTooltipType } from 'antd/lib/form/FormItemLabel';
 
@@ -10,7 +10,7 @@ import ListView from './ListView';
 
 import './index.less';
 import type { ItemProps } from './Item';
-import type { ProCardProps } from '@ant-design/pro-card';
+import type { ProCardProps } from '@galiojs/pro-card';
 
 export type AntdListProps<RecordType> = Omit<ListProps<RecordType>, 'rowKey'>;
 

@@ -1,10 +1,10 @@
-﻿import type { ProSchemaComponentTypes, UseEditableUtilType } from '@ant-design/pro-utils';
-import type { ProFieldEmptyText } from '@ant-design/pro-field';
+﻿import type { ProSchemaComponentTypes, UseEditableUtilType } from '@galiojs/pro-utils';
+import type { ProFieldEmptyText } from '@galiojs/pro-field';
 import type { TableColumnType, TableProps } from 'antd';
 import { Table } from 'antd';
-import { runFunction } from '@ant-design/pro-utils';
-import { omitBoolean, omitUndefinedAndEmptyArr } from '@ant-design/pro-utils';
-import { proFieldParsingValueEnumToArray } from '@ant-design/pro-field';
+import { runFunction } from '@galiojs/pro-utils';
+import { omitBoolean, omitUndefinedAndEmptyArr } from '@galiojs/pro-utils';
+import { proFieldParsingValueEnumToArray } from '@galiojs/pro-field';
 
 import type { ProColumns, ProColumnGroupType } from '../typing';
 import type { useContainer } from '../container';

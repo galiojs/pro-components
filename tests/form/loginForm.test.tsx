@@ -1,4 +1,4 @@
-import { LoginForm, ProFormText } from '@ant-design/pro-form';
+import { LoginForm, ProFormText } from '@galiojs/pro-form';
 import { mount } from 'enzyme';
 import { waitForComponentToPaint } from '../util';
 import { AlipayCircleOutlined, TaobaoCircleOutlined, WeiboCircleOutlined } from '@ant-design/icons';

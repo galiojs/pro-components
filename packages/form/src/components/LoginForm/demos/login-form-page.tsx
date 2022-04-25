@@ -1,4 +1,4 @@
-import { LoginFormPage, ProFormText, ProFormCaptcha, ProFormCheckbox } from '@ant-design/pro-form';
+import { LoginFormPage, ProFormText, ProFormCaptcha, ProFormCheckbox } from '@galiojs/pro-form';
 import {
   UserOutlined,
   MobileOutlined,

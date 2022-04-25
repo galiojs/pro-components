@@ -2,7 +2,7 @@
 import type { ErrorInfo } from 'react';
 import { Button, Result } from 'antd';
 
-import ProLayout, { PageContainer } from '@ant-design/pro-layout';
+import ProLayout, { PageContainer } from '@galiojs/pro-layout';
 
 class CustomBoundary extends React.Component<
   Record<string, any>,

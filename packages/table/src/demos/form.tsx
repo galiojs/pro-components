@@ -1,8 +1,8 @@
 import React, { useRef, useState } from 'react';
 import { Button } from 'antd';
-import type { ProColumns } from '@ant-design/pro-table';
-import ProTable from '@ant-design/pro-table';
-import type { ProFormInstance } from '@ant-design/pro-form';
+import type { ProColumns } from '@galiojs/pro-table';
+import ProTable from '@galiojs/pro-table';
+import type { ProFormInstance } from '@galiojs/pro-form';
 
 export type TableListItem = {
   key: number;

@@ -2,7 +2,7 @@ import React from 'react';
 import type { RadioProps, RadioGroupProps } from 'antd';
 import { Radio } from 'antd';
 import ProField from '../Field';
-import { runFunction } from '@ant-design/pro-utils';
+import { runFunction } from '@galiojs/pro-utils';
 import type { ProFormFieldItemProps, ProFormFieldRemoteProps } from '../../interface';
 import { createField } from '../../BaseForm/createField';
 

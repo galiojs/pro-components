@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Button, Result, Avatar, Space, Tag } from 'antd';
 import { CrownOutlined, LeftOutlined, UserOutlined, SmileOutlined } from '@ant-design/icons';
-import ProLayout from '@ant-design/pro-layout';
+import ProLayout from '@galiojs/pro-layout';
 
 const defaultProps = {
   routes: [

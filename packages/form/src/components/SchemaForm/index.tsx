@@ -1,5 +1,5 @@
 ﻿import React, { useCallback, useImperativeHandle, useMemo, useRef, useState } from 'react';
-import { LabelIconTip, omitUndefined, useLatest, runFunction } from '@ant-design/pro-utils';
+import { LabelIconTip, omitUndefined, useLatest, runFunction } from '@galiojs/pro-utils';
 import { renderValueType } from './valueType';
 import omit from 'omit.js';
 import { DrawerForm } from '../../layouts/DrawerForm';

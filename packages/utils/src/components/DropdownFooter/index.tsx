@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { Button, ConfigProvider } from 'antd';
-import { useIntl } from '@ant-design/pro-provider';
+import { useIntl } from '@galiojs/pro-provider';
 
 import './index.less';
 

@@ -7,8 +7,8 @@ import ProForm, {
   ProFormText,
   ProFormSelect,
   ProFormField,
-} from '@ant-design/pro-form';
-import ProCard from '@ant-design/pro-card';
+} from '@galiojs/pro-form';
+import ProCard from '@galiojs/pro-card';
 import {
   HeartOutlined,
   HomeOutlined,

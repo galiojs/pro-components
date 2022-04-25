@@ -1,11 +1,11 @@
 import React, { memo, useCallback, useContext, useEffect, useMemo, useState } from 'react';
-import type { ProFormFieldProps } from '@ant-design/pro-form';
-import { FieldContext, ProFormField, ProFormDependency } from '@ant-design/pro-form';
-import type { ProFieldEmptyText } from '@ant-design/pro-field';
-import type { ProFieldValueType, ProSchemaComponentTypes } from '@ant-design/pro-utils';
-import { isDeepEqualReact } from '@ant-design/pro-utils';
-import { runFunction } from '@ant-design/pro-utils';
-import { getFieldPropsOrFormItemProps, InlineErrorFormItem } from '@ant-design/pro-utils';
+import type { ProFormFieldProps } from '@galiojs/pro-form';
+import { FieldContext, ProFormField, ProFormDependency } from '@galiojs/pro-form';
+import type { ProFieldEmptyText } from '@galiojs/pro-field';
+import type { ProFieldValueType, ProSchemaComponentTypes } from '@galiojs/pro-utils';
+import { isDeepEqualReact } from '@galiojs/pro-utils';
+import { runFunction } from '@galiojs/pro-utils';
+import { getFieldPropsOrFormItemProps, InlineErrorFormItem } from '@galiojs/pro-utils';
 import type { ProColumnType } from '../index';
 import type { useContainer } from '../container';
 

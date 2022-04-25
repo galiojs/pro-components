@@ -1,7 +1,7 @@
 {
-  "name": "@ant-design/pro-form",
+  "name": "@galiojs/pro-form",
   "version": "1.65.0",
-  "description": "@ant-design/pro-form",
+  "description": "@galiojs/pro-form",
   "keywords": [
     "antd",
     "admin",
@@ -34,9 +34,9 @@
   ],
   "dependencies": {
     "@ant-design/icons": "^4.2.1",
-    "@ant-design/pro-field": "1.34.6",
-    "@ant-design/pro-provider": "1.6.4",
-    "@ant-design/pro-utils": "1.39.3",
+    "@galiojs/pro-field": "1.34.6",
+    "@galiojs/pro-provider": "1.6.4",
+    "@galiojs/pro-utils": "1.39.3",
     "@babel/runtime": "^7.16.3",
     "@umijs/use-params": "^1.0.9",
     "classnames": "^2.2.6",

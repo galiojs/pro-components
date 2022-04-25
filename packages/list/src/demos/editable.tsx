@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Tag, Space } from 'antd';
-import ProList from '@ant-design/pro-list';
+import ProList from '@galiojs/pro-list';
 
 const defaultData = [
   {

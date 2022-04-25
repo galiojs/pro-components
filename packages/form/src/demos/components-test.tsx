@@ -9,7 +9,7 @@ import ProForm, {
   ProFormField,
   ProFormSlider,
   ProFormUploadDragger,
-} from '@ant-design/pro-form';
+} from '@galiojs/pro-form';
 import { Button, Input } from 'antd';
 
 const Demo = () => {

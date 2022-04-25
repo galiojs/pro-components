@@ -2,12 +2,12 @@
 import type { FormInstance, FormItemProps } from 'antd';
 import { Table } from 'antd';
 import { ConfigProvider } from 'antd';
-import type { BaseQueryFilterProps, ProFormProps } from '@ant-design/pro-form';
+import type { BaseQueryFilterProps, ProFormProps } from '@galiojs/pro-form';
 import classNames from 'classnames';
 import omit from 'omit.js';
-import { BetaSchemaForm } from '@ant-design/pro-form';
+import { BetaSchemaForm } from '@galiojs/pro-form';
 
-import type { ProSchemaComponentTypes } from '@ant-design/pro-utils';
+import type { ProSchemaComponentTypes } from '@galiojs/pro-utils';
 import type { ActionType, ProColumns, ProTableProps } from '../../typing';
 
 import './index.less';

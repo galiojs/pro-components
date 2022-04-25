@@ -1,8 +1,8 @@
 import React from 'react';
 import { Tooltip } from 'antd';
 import { QuestionCircleOutlined } from '@ant-design/icons';
-import type { ProColumns } from '@ant-design/pro-table';
-import ProTable, { TableDropdown } from '@ant-design/pro-table';
+import type { ProColumns } from '@galiojs/pro-table';
+import ProTable, { TableDropdown } from '@galiojs/pro-table';
 import moment from 'moment';
 
 export type TableListItem = {

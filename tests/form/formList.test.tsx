@@ -5,7 +5,7 @@ import ProForm, {
   ProFormDependency,
   ProFormGroup,
   ProFormDatePicker,
-} from '@ant-design/pro-form';
+} from '@galiojs/pro-form';
 import { act } from 'react-dom/test-utils';
 import { mount } from 'enzyme';
 import { waitForComponentToPaint, waitTime } from '../util';

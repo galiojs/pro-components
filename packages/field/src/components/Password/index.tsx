@@ -2,7 +2,7 @@ import React from 'react';
 import { Input, Space } from 'antd';
 import { EyeOutlined, EyeInvisibleOutlined } from '@ant-design/icons';
 import useMergedState from 'rc-util/lib/hooks/useMergedState';
-import { useIntl } from '@ant-design/pro-provider';
+import { useIntl } from '@galiojs/pro-provider';
 
 import type { ProFieldFC } from '../../index';
 

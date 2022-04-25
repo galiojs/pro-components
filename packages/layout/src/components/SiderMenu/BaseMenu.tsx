@@ -3,7 +3,7 @@ import Icon, { createFromIconfontCN } from '@ant-design/icons';
 import { Menu, Skeleton } from 'antd';
 import React, { useEffect, useState, useRef, useMemo } from 'react';
 import classNames from 'classnames';
-import { isUrl, isImg, useMountMergeState } from '@ant-design/pro-utils';
+import { isUrl, isImg, useMountMergeState } from '@galiojs/pro-utils';
 
 import type { MenuTheme, MenuProps } from 'antd';
 import type { PureSettings } from '../../defaultSettings';

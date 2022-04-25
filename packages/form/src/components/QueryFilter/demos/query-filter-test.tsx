@@ -1,5 +1,5 @@
 import React from 'react';
-import ProForm, { QueryFilter, ProFormText } from '@ant-design/pro-form';
+import ProForm, { QueryFilter, ProFormText } from '@galiojs/pro-form';
 import { Input } from 'antd';
 
 export default () => {

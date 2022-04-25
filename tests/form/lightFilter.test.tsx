@@ -10,7 +10,7 @@ import {
   ProFormTimePicker,
   ProFormRadio,
   ProFormSlider,
-} from '@ant-design/pro-form';
+} from '@galiojs/pro-form';
 import KeyCode from 'rc-util/lib/KeyCode';
 import { act } from 'react-dom/test-utils';
 import { waitForComponentToPaint } from '../util';

@@ -1,5 +1,5 @@
 import ProFormField from '../../Field';
-import { omitUndefined } from '@ant-design/pro-utils';
+import { omitUndefined } from '@galiojs/pro-utils';
 import type { ProFormFieldProps } from '../../Field';
 import type { ProSchemaRenderValueTypeFunction } from '../typing';
 import omit from 'omit.js';

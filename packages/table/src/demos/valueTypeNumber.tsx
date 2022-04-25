@@ -1,5 +1,5 @@
 import React from 'react';
-import ProTable from '@ant-design/pro-table';
+import ProTable from '@galiojs/pro-table';
 
 const valueEnum = {
   0: 'close',

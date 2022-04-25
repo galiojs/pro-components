@@ -9,10 +9,10 @@ import React, {
 } from 'react';
 import type { TablePaginationConfig } from 'antd';
 import { Table, Spin, ConfigProvider } from 'antd';
-import ProCard from '@ant-design/pro-card';
+import ProCard from '@galiojs/pro-card';
 
-import type { ParamsType } from '@ant-design/pro-provider';
-import { useIntl, ConfigProviderWrap } from '@ant-design/pro-provider';
+import type { ParamsType } from '@galiojs/pro-provider';
+import { useIntl, ConfigProviderWrap } from '@galiojs/pro-provider';
 import classNames from 'classnames';
 import { stringify } from 'use-json-comparison';
 import type {
@@ -30,7 +30,7 @@ import {
   useDeepCompareEffectDebounce,
   editableRowByKey,
   recordKeyToString,
-} from '@ant-design/pro-utils';
+} from '@galiojs/pro-utils';
 
 import useFetchData from './useFetchData';
 import Container from './container';
@@ -57,7 +57,7 @@ import type {
 } from './typing';
 import type { ActionType } from '.';
 import { columnSort } from './utils/columnSort';
-import ProForm from '@ant-design/pro-form';
+import ProForm from '@galiojs/pro-form';
 
 function TableRender<T extends Record<string, any>, U, ValueType>(
   props: ProTableProps<T, U, ValueType> & {

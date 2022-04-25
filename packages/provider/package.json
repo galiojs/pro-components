@@ -1,7 +1,7 @@
 {
-  "name": "@ant-design/pro-provider",
+  "name": "@galiojs/pro-provider",
   "version": "1.6.4",
-  "description": "@ant-design/pro-provider",
+  "description": "@galiojs/pro-provider",
   "keywords": [
     "antd",
     "admin",

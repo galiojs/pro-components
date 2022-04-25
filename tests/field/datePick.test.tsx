@@ -1,7 +1,7 @@
 import { mount } from 'enzyme';
 import React from 'react';
 import { act } from 'react-dom/test-utils';
-import Field from '@ant-design/pro-field';
+import Field from '@galiojs/pro-field';
 import { render } from '@testing-library/react';
 import moment from 'moment';
 import { waitForComponentToPaint } from '../util';

@@ -1,12 +1,12 @@
 import React, { useRef } from 'react';
 import { InputNumber, Form } from 'antd';
-import type { RowEditableConfig } from '@ant-design/pro-utils';
+import type { RowEditableConfig } from '@galiojs/pro-utils';
 import useMergedState from 'rc-util/lib/hooks/useMergedState';
 import type {
   ProDescriptionsActionType,
   ProDescriptionsItemProps,
-} from '@ant-design/pro-descriptions';
-import Descriptions from '@ant-design/pro-descriptions';
+} from '@galiojs/pro-descriptions';
+import Descriptions from '@galiojs/pro-descriptions';
 import { mount, render } from 'enzyme';
 import { act } from 'react-dom/test-utils';
 import { waitForComponentToPaint } from '../util';

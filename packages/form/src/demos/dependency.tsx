@@ -1,6 +1,6 @@
 import React from 'react';
 import { Form, message } from 'antd';
-import ProForm, { ProFormText, ProFormSelect, ProFormDependency } from '@ant-design/pro-form';
+import ProForm, { ProFormText, ProFormSelect, ProFormDependency } from '@galiojs/pro-form';
 
 const waitTime = (time: number = 100) => {
   return new Promise((resolve) => {

@@ -13,8 +13,8 @@ import toArray from 'rc-util/lib/Children/toArray';
 import type { FormProviderProps } from 'antd/lib/form/context';
 import useMergedState from 'rc-util/lib/hooks/useMergedState';
 import classNames from 'classnames';
-import { ConfigProviderWrap, useIntl } from '@ant-design/pro-provider';
-import { merge, useRefFunction } from '@ant-design/pro-utils';
+import { ConfigProviderWrap, useIntl } from '@galiojs/pro-provider';
+import { merge, useRefFunction } from '@galiojs/pro-utils';
 
 import type { StepFormProps } from './StepForm';
 import './index.less';

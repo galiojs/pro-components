@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { StatisticCard } from '@ant-design/pro-card';
+import { StatisticCard } from '@galiojs/pro-card';
 import RcResizeObserver from 'rc-resize-observer';
 
 const imgStyle = {

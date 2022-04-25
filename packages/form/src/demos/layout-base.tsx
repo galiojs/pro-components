@@ -7,8 +7,8 @@ import ProForm, {
   ProFormUploadButton,
   ProFormDigit,
   ProFormTextArea,
-} from '@ant-design/pro-form';
-import { BasicLayout, FooterToolbar, PageContainer } from '@ant-design/pro-layout';
+} from '@galiojs/pro-form';
+import { BasicLayout, FooterToolbar, PageContainer } from '@galiojs/pro-layout';
 import { Card } from 'antd';
 import { SmileOutlined } from '@ant-design/icons';
 

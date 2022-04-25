@@ -4,7 +4,7 @@ import MockDate from 'mockdate';
 import { act } from 'react-dom/test-utils';
 import type { FormInstance } from 'antd';
 import { Input } from 'antd';
-import ProTable from '@ant-design/pro-table';
+import ProTable from '@galiojs/pro-table';
 import { request } from './demo';
 import { waitForComponentToPaint, waitTime } from '../util';
 

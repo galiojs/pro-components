@@ -3,13 +3,13 @@
 import type { Moment } from 'moment';
 import React, { useEffect, useRef } from 'react';
 import moment from 'moment';
-import type { ProFormInstance } from '@ant-design/pro-form';
+import type { ProFormInstance } from '@galiojs/pro-form';
 import {
   ProFormDateRangePicker,
   ProFormSelect,
   ProFormText,
   StepsForm,
-} from '@ant-design/pro-form';
+} from '@galiojs/pro-form';
 
 type FormValue = {
   jobInfo: {

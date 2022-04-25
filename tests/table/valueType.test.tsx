@@ -1,8 +1,8 @@
 import { mount } from 'enzyme';
 import React from 'react';
-import ProTable from '@ant-design/pro-table';
+import ProTable from '@galiojs/pro-table';
 import { Input } from 'antd';
-import ProProvider from '@ant-design/pro-provider';
+import ProProvider from '@galiojs/pro-provider';
 
 import { waitForComponentToPaint } from '../util';
 import { act } from 'react-dom/test-utils';

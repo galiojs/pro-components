@@ -1,6 +1,6 @@
 import { act } from 'react-dom/test-utils';
 import { mount } from 'enzyme';
-import ProForm, { ProFormDependency, ProFormText } from '@ant-design/pro-form';
+import ProForm, { ProFormDependency, ProFormText } from '@galiojs/pro-form';
 import { waitForComponentToPaint } from '../util';
 
 describe('ProForm Dependency component', () => {

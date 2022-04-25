@@ -1,4 +1,4 @@
-﻿import { getPageTitle } from '@ant-design/pro-layout';
+﻿import { getPageTitle } from '@galiojs/pro-layout';
 
 const pageProps = {
   pathname: '/welcome',

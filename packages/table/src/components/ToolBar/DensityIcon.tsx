@@ -1,4 +1,4 @@
-import { useIntl } from '@ant-design/pro-provider';
+import { useIntl } from '@galiojs/pro-provider';
 import React from 'react';
 import { ColumnHeightOutlined } from '@ant-design/icons';
 import { Menu, Dropdown, Tooltip } from 'antd';

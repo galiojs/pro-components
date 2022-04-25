@@ -1,5 +1,5 @@
 ﻿import React, { useState } from 'react';
-import { ProFormSelect } from '@ant-design/pro-form';
+import { ProFormSelect } from '@galiojs/pro-form';
 
 export default function App() {
   const [searchValue, setSearchValue] = useState('');

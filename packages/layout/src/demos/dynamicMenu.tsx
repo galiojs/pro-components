@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import ProLayout, { PageContainer } from '@ant-design/pro-layout';
+import ProLayout, { PageContainer } from '@galiojs/pro-layout';
 import { Button } from 'antd';
 import customMenuDate from './customMenu';
 

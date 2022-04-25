@@ -5,9 +5,9 @@ import type {
   ProColumns,
   ActionType,
   EditableFormInstance,
-} from '@ant-design/pro-table';
-import { EditableProTable } from '@ant-design/pro-table';
-import ProForm, { ProFormText } from '@ant-design/pro-form';
+} from '@galiojs/pro-table';
+import { EditableProTable } from '@galiojs/pro-table';
+import ProForm, { ProFormText } from '@galiojs/pro-form';
 import useMergedState from 'rc-util/lib/hooks/useMergedState';
 import { mount } from 'enzyme';
 import { act } from 'react-dom/test-utils';

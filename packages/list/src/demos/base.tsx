@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, Tag, Space } from 'antd';
-import ProList from '@ant-design/pro-list';
+import ProList from '@galiojs/pro-list';
 
 const dataSource = [
   {

@@ -3,7 +3,7 @@
  */
 
 import React from 'react';
-import { CheckCard } from '@ant-design/pro-card';
+import { CheckCard } from '@galiojs/pro-card';
 import { Typography } from 'antd';
 
 const { Paragraph } = Typography;

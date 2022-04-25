@@ -1,7 +1,7 @@
 import { mount } from 'enzyme';
 import type { ReactText } from 'react';
 import React, { useState } from 'react';
-import ProList, { BaseProList } from '@ant-design/pro-list';
+import ProList, { BaseProList } from '@galiojs/pro-list';
 import { act } from 'react-dom/test-utils';
 import PaginationDemo from '../../packages/list/src/demos/pagination';
 import { waitForComponentToPaint } from '../util';

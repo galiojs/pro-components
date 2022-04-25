@@ -11,7 +11,7 @@ import ProForm, {
   ProFormUploadButton,
   ProFormUploadDragger,
   ProFormFieldSet,
-} from '@ant-design/pro-form';
+} from '@galiojs/pro-form';
 
 const Demo = () => (
   <div

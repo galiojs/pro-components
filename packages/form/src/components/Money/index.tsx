@@ -1,5 +1,5 @@
 import React from 'react';
-import type { ProFieldMoneyProps } from '@ant-design/pro-field';
+import type { ProFieldMoneyProps } from '@galiojs/pro-field';
 import ProFormField from '../Field';
 import type { ProFormFieldItemProps } from '../../interface';
 import type { InputNumberProps } from 'antd';

@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Input, message } from 'antd';
-import ProForm, { ProFormText } from '@ant-design/pro-form';
-import type { ProColumns } from '@ant-design/pro-table';
-import { EditableProTable } from '@ant-design/pro-table';
+import ProForm, { ProFormText } from '@galiojs/pro-form';
+import type { ProColumns } from '@galiojs/pro-table';
+import { EditableProTable } from '@galiojs/pro-table';
 
 const waitTime = (time: number = 100) => {
   return new Promise((resolve) => {

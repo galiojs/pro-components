@@ -8,9 +8,9 @@ import type {
   ProFieldFCRenderProps,
   ProFieldTextType,
   ProFieldRequestData,
-} from '@ant-design/pro-utils';
-import { pickProProps, omitUndefined } from '@ant-design/pro-utils';
-import ConfigContext, { useIntl } from '@ant-design/pro-provider';
+} from '@galiojs/pro-utils';
+import { pickProProps, omitUndefined } from '@galiojs/pro-utils';
+import ConfigContext, { useIntl } from '@galiojs/pro-provider';
 import FieldPercent from './components/Percent';
 import FieldIndexColumn from './components/IndexColumn';
 import FieldProgress from './components/Progress';

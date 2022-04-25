@@ -1,6 +1,6 @@
 import { render, mount } from 'enzyme';
 import React from 'react';
-import ProLayout, { PageContainer } from '@ant-design/pro-layout';
+import ProLayout, { PageContainer } from '@galiojs/pro-layout';
 import { act } from 'react-dom/test-utils';
 import defaultProps from './defaultProps';
 import { waitForComponentToPaint } from '../util';

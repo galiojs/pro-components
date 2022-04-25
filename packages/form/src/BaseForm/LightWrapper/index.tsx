@@ -6,7 +6,7 @@ import {
   useMountMergeState,
   dateArrayFormatter,
   dateFormatterMap,
-} from '@ant-design/pro-utils';
+} from '@galiojs/pro-utils';
 import { ConfigProvider } from 'antd';
 import type { Placement } from '../../interface';
 

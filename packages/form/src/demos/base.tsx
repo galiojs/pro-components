@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import { message, TreeSelect } from 'antd';
-import type { ProFormInstance } from '@ant-design/pro-form';
-import { ProFormCascader } from '@ant-design/pro-form';
+import type { ProFormInstance } from '@galiojs/pro-form';
+import { ProFormCascader } from '@galiojs/pro-form';
 import ProForm, {
   ProFormText,
   ProFormDateRangePicker,
@@ -9,7 +9,7 @@ import ProForm, {
   ProFormMoney,
   ProFormDigit,
   ProFormTreeSelect,
-} from '@ant-design/pro-form';
+} from '@galiojs/pro-form';
 
 const waitTime = (time: number = 100) => {
   return new Promise((resolve) => {

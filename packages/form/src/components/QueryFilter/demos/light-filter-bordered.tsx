@@ -1,6 +1,6 @@
 import React from 'react';
 import { FilterOutlined } from '@ant-design/icons';
-import { LightFilter, ProFormSelect, ProFormRadio, ProFormDatePicker } from '@ant-design/pro-form';
+import { LightFilter, ProFormSelect, ProFormRadio, ProFormDatePicker } from '@galiojs/pro-form';
 
 export default () => {
   return (

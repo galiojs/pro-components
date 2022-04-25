@@ -4,7 +4,7 @@ import ProForm, {
   ProFormText,
   ProFormRate,
   ProFormTextArea,
-} from '@ant-design/pro-form';
+} from '@galiojs/pro-form';
 import { mount } from 'enzyme';
 import { act } from 'react-dom/test-utils';
 import { waitForComponentToPaint } from '../util';

@@ -11,7 +11,7 @@ import ProForm, {
   ProFormSelect,
   ProFormRadio,
   LoginForm,
-} from '@ant-design/pro-form';
+} from '@galiojs/pro-form';
 import {
   AlipayCircleOutlined,
   LockOutlined,

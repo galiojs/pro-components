@@ -1,6 +1,6 @@
 import React from 'react';
-import ProLayout, { PageContainer } from '@ant-design/pro-layout';
-import ProCard from '@ant-design/pro-card';
+import ProLayout, { PageContainer } from '@galiojs/pro-layout';
+import ProCard from '@galiojs/pro-card';
 import { Descriptions } from 'antd';
 import defaultProps from './_defaultProps';
 

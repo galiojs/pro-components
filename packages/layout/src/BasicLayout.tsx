@@ -8,7 +8,7 @@ import classNames from 'classnames';
 import warning from 'warning';
 import useMergedState from 'rc-util/lib/hooks/useMergedState';
 import useAntdMediaQuery from 'use-media-antd-query';
-import { useDocumentTitle, isBrowser, useMountMergeState } from '@ant-design/pro-utils';
+import { useDocumentTitle, isBrowser, useMountMergeState } from '@galiojs/pro-utils';
 import Omit from 'omit.js';
 import useSWR, { useSWRConfig } from 'swr';
 import { getMatchMenu } from '@umijs/route-utils';
@@ -35,7 +35,7 @@ import compatibleLayout from './utils/compatibleLayout';
 import useCurrentMenuLayoutProps from './utils/useCurrentMenuLayoutProps';
 import { clearMenuItem } from './utils/utils';
 import type { WaterMarkProps } from './components/WaterMark';
-import { ConfigProviderWrap } from '@ant-design/pro-provider';
+import { ConfigProviderWrap } from '@galiojs/pro-provider';
 
 let layoutIndex = 0;
 

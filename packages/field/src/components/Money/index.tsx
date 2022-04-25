@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react';
 import type { InputNumberProps } from 'antd';
 import { InputNumber, Popover } from 'antd';
-import { useIntl, intlMap as allIntlMap } from '@ant-design/pro-provider';
+import { useIntl, intlMap as allIntlMap } from '@galiojs/pro-provider';
 import type { ProFieldFC } from '../../index';
 import useMergedState from 'rc-util/lib/hooks/useMergedState';
 import omit from 'omit.js';

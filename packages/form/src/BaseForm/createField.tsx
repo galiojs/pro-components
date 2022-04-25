@@ -4,7 +4,7 @@ import {
   omitUndefined,
   usePrevious,
   isDeepEqualReact,
-} from '@ant-design/pro-utils';
+} from '@galiojs/pro-utils';
 import classnames from 'classnames';
 import { noteOnce } from 'rc-util/lib/warning';
 import { stringify } from 'use-json-comparison';

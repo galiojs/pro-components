@@ -4,7 +4,7 @@ import { ConfigProvider, Row, Col } from 'antd';
 import omit from 'omit.js';
 import CheckCard from './index';
 import './index.less';
-import { useMountMergeState } from '@ant-design/pro-utils';
+import { useMountMergeState } from '@galiojs/pro-utils';
 
 export type CheckCardValueType = string | number | boolean;
 

@@ -3,7 +3,7 @@ import type { SelectProps } from 'antd';
 import { Select, Input, ConfigProvider } from 'antd';
 import { SearchOutlined } from '@ant-design/icons';
 import classNames from 'classnames';
-import { FieldLabel } from '@ant-design/pro-utils';
+import { FieldLabel } from '@galiojs/pro-utils';
 
 import './index.less';
 

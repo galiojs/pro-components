@@ -1,7 +1,7 @@
 import { DatePicker, Tooltip } from 'antd';
 import React from 'react';
-import { parseValueToMoment } from '@ant-design/pro-utils';
-import { useIntl } from '@ant-design/pro-provider';
+import { parseValueToMoment } from '@galiojs/pro-utils';
+import { useIntl } from '@galiojs/pro-provider';
 import moment from 'moment';
 
 import type { ProFieldFC } from '../../index';

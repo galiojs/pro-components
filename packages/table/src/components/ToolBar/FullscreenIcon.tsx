@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { FullscreenExitOutlined, FullscreenOutlined } from '@ant-design/icons';
 import { Tooltip } from 'antd';
-import { useIntl } from '@ant-design/pro-provider';
-import { isBrowser } from '@ant-design/pro-utils';
+import { useIntl } from '@galiojs/pro-provider';
+import { isBrowser } from '@galiojs/pro-utils';
 
 const FullScreenIcon = () => {
   const intl = useIntl();

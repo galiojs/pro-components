@@ -1,9 +1,9 @@
 ﻿import React, { useRef, useState } from 'react';
-import type { EditableFormInstance, ProColumns } from '@ant-design/pro-table';
-import { EditableProTable } from '@ant-design/pro-table';
-import type { ProFormInstance } from '@ant-design/pro-form';
-import ProForm, { ProFormRadio, ProFormField, ProFormDependency } from '@ant-design/pro-form';
-import ProCard from '@ant-design/pro-card';
+import type { EditableFormInstance, ProColumns } from '@galiojs/pro-table';
+import { EditableProTable } from '@galiojs/pro-table';
+import type { ProFormInstance } from '@galiojs/pro-form';
+import ProForm, { ProFormRadio, ProFormField, ProFormDependency } from '@galiojs/pro-form';
+import ProCard from '@galiojs/pro-card';
 import { Button } from 'antd';
 
 type DataSourceType = {

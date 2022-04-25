@@ -1,5 +1,5 @@
 ﻿import React, { useState } from 'react';
-import { ProFormTreeSelect } from '@ant-design/pro-form';
+import { ProFormTreeSelect } from '@galiojs/pro-form';
 
 const treeData = [
   {

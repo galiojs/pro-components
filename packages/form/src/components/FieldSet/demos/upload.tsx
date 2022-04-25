@@ -1,4 +1,4 @@
-﻿import ProForm, { ProFormUploadDragger, ProFormUploadButton } from '@ant-design/pro-form';
+﻿import ProForm, { ProFormUploadDragger, ProFormUploadButton } from '@galiojs/pro-form';
 import React from 'react';
 
 export default () => {

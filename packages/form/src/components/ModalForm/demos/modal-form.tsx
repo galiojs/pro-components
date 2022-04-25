@@ -5,7 +5,7 @@ import ProForm, {
   ProFormText,
   ProFormDateRangePicker,
   ProFormSelect,
-} from '@ant-design/pro-form';
+} from '@galiojs/pro-form';
 import { PlusOutlined } from '@ant-design/icons';
 
 const waitTime = (time: number = 100) => {

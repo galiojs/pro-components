@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import ProCard from '@ant-design/pro-card';
+import ProCard from '@galiojs/pro-card';
 import RcResizeObserver from 'rc-resize-observer';
 
 export default () => {

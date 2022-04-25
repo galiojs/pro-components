@@ -13,7 +13,7 @@ import {
   LabelIconTip,
   useDebounceValue,
   isDeepEqualReact,
-} from '@ant-design/pro-utils';
+} from '@galiojs/pro-utils';
 import { mount } from 'enzyme';
 import { Form, Input } from 'antd';
 import type { Moment } from 'moment';

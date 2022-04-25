@@ -1,6 +1,6 @@
 import React, { useContext, useRef, useState } from 'react';
-import ProDescriptions from '@ant-design/pro-descriptions';
-import ProProvider from '@ant-design/pro-provider';
+import ProDescriptions from '@galiojs/pro-descriptions';
+import ProProvider from '@galiojs/pro-provider';
 import { Input, Space, Tag } from 'antd';
 import type { InputRef } from 'antd';
 

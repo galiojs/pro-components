@@ -2,8 +2,8 @@ import type { DatePickerProps } from 'antd';
 import { DatePicker, ConfigProvider } from 'antd';
 import React, { useState, useContext } from 'react';
 import moment from 'moment';
-import { useIntl } from '@ant-design/pro-provider';
-import { FieldLabel, parseValueToMoment } from '@ant-design/pro-utils';
+import { useIntl } from '@galiojs/pro-provider';
+import { FieldLabel, parseValueToMoment } from '@galiojs/pro-utils';
 import type { ProFieldFC } from '../../index';
 import './index.less';
 

@@ -5,7 +5,7 @@ import {
   ProFormDatePicker,
   ProFormDateRangePicker,
   ProFormSelect,
-} from '@ant-design/pro-form';
+} from '@galiojs/pro-form';
 
 export default () => {
   return (

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
-import type { MenuDataItem } from '@ant-design/pro-layout';
-import ProLayout, { PageContainer } from '@ant-design/pro-layout';
+import type { MenuDataItem } from '@galiojs/pro-layout';
+import ProLayout, { PageContainer } from '@galiojs/pro-layout';
 import { Input } from 'antd';
 import complexMenu from './complexMenu';
 

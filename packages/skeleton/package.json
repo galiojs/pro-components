@@ -1,7 +1,7 @@
 {
-  "name": "@ant-design/pro-skeleton",
+  "name": "@galiojs/pro-skeleton",
   "version": "1.0.5",
-  "description": "@ant-design/pro-skeleton",
+  "description": "@galiojs/pro-skeleton",
   "keywords": [
     "antd",
     "admin",

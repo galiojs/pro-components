@@ -1,12 +1,12 @@
 ﻿import React, { useRef } from 'react';
 import { Button, message } from 'antd';
-import type { ProFormInstance } from '@ant-design/pro-form';
+import type { ProFormInstance } from '@galiojs/pro-form';
 import ProForm, {
   DrawerForm,
   ProFormText,
   ProFormDateRangePicker,
   ProFormSelect,
-} from '@ant-design/pro-form';
+} from '@galiojs/pro-form';
 import { PlusOutlined } from '@ant-design/icons';
 
 const waitTime = (time: number = 100) => {

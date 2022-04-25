@@ -4,7 +4,7 @@ import { RightOutlined } from '@ant-design/icons';
 import FieldContext from '../../FieldContext';
 import type { GroupProps } from '../../interface';
 import './index.less';
-import { LabelIconTip, useMountMergeState } from '@ant-design/pro-utils';
+import { LabelIconTip, useMountMergeState } from '@galiojs/pro-utils';
 import classNames from 'classnames';
 import { useGridHelpers } from '../../helpers';
 

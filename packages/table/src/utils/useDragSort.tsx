@@ -3,7 +3,7 @@ import React from 'react';
 import type { TableComponents } from 'rc-table/lib/interface';
 import type { SortDataParams } from './index';
 import { sortData } from './index';
-import { useRefFunction } from '@ant-design/pro-utils';
+import { useRefFunction } from '@galiojs/pro-utils';
 
 export interface UseDragSortOptions<T> {
   dataSource?: T[];

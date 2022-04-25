@@ -6,7 +6,7 @@ import ProForm, {
   ProFormDateRangePicker,
   ProFormSelect,
   DrawerForm,
-} from '@ant-design/pro-form';
+} from '@galiojs/pro-form';
 import { PlusOutlined } from '@ant-design/icons';
 
 export default () => {
