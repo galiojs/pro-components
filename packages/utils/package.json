@@ -47,7 +47,8 @@
     "react": ">=16.9.0",
     "react-dom": ">=16.9.0"
   },
-  "publishConfig": {
+  "private": false,
+"publishConfig": {
     "access": "public"
   },
   "authors": [
