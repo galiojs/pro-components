@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.0.6 (2022-04-25)
+
+### Bug Fixes
+
+- **colsize:** fix colsize warning ([#1245](https://github.com/ant-design/pro-components/issues/1245)) ([af674b6](https://github.com/ant-design/pro-components/commit/af674b661f53ef7f537bd49bea32784274cf0d34))
+- **form:** ProFormList use uuid ([#4479](https://github.com/ant-design/pro-components/issues/4479)) ([11b3f71](https://github.com/ant-design/pro-components/commit/11b3f717cf545d9a361f173975586a99375c6517))
+
 ## [1.0.5](https://github.com/ant-design/pro-components/compare/@ant-design/pro-skeleton@1.0.4...@ant-design/pro-skeleton@1.0.5) (2022-02-10)
 
 **Note:** Version bump only for package @ant-design/pro-skeleton

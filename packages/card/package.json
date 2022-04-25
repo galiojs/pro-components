@@ -1,6 +1,6 @@
 {
   "name": "@galiojs/pro-card",
-  "version": "1.20.0",
+  "version": "1.21.0",
   "description": "@galiojs/pro-card",
   "keywords": [
     "antd",
@@ -34,8 +34,8 @@
   ],
   "dependencies": {
     "@ant-design/icons": "^4.2.1",
-    "@galiojs/pro-utils": "1.39.3",
     "@babel/runtime": "^7.16.3",
+    "@galiojs/pro-utils": "1.40.0",
     "classnames": "^2.2.6",
     "omit.js": "^2.0.2",
     "rc-util": "^5.4.0"
