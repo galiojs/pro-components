@@ -1,6 +1,6 @@
 {
   "name": "@galiojs/pro-skeleton",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "description": "@galiojs/pro-skeleton",
   "keywords": [
     "antd",
@@ -40,7 +40,7 @@
     "react": ">=16.9.0"
   },
   "private": false,
-"publishConfig": {
+  "publishConfig": {
     "access": "public"
   },
   "authors": [

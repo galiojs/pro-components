@@ -1,6 +1,6 @@
 {
   "name": "@galiojs/pro-list",
-  "version": "1.22.0",
+  "version": "1.23.0",
   "description": "🏆 Use Ant Design List like a Pro!",
   "keywords": [
     "antd",
@@ -33,9 +33,9 @@
   "dependencies": {
     "@ant-design/icons": "^4.0.0",
     "@babel/runtime": "^7.16.3",
-    "@galiojs/pro-card": "1.21.0",
-    "@galiojs/pro-field": "1.35.0",
-    "@galiojs/pro-table": "2.73.0",
+    "@galiojs/pro-card": "^1.22.0",
+    "@galiojs/pro-field": "^1.36.0",
+    "@galiojs/pro-table": "^2.74.0",
     "classnames": "^2.2.6",
     "moment": "^2.24.0",
     "rc-resize-observer": "^1.0.0",
@@ -48,7 +48,7 @@
     "react": ">=16.9.0"
   },
   "private": false,
-"publishConfig": {
+  "publishConfig": {
     "access": "public"
   },
   "authors": {

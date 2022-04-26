@@ -1,6 +1,6 @@
 {
   "name": "@galiojs/pro-provider",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "description": "@galiojs/pro-provider",
   "keywords": [
     "antd",
@@ -38,7 +38,7 @@
     "react": ">=16.9.0"
   },
   "private": false,
-"publishConfig": {
+  "publishConfig": {
     "access": "public"
   },
   "authors": [
