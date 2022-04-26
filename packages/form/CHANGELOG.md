@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.67.1](https://github.com/ant-design/pro-components/compare/@galiojs/pro-form@1.66.0...@galiojs/pro-form@1.67.1) (2022-04-26)
+
+### Bug Fixes
+
+- code style ([5974efe](https://github.com/ant-design/pro-components/commit/5974efece841c28a5288547d256cf09b5eff8864))
+
 # 1.66.0 (2022-04-25)
 
 ### Bug Fixes

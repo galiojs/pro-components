@@ -1,6 +1,6 @@
 {
   "name": "@galiojs/pro-form",
-  "version": "1.67.0",
+  "version": "1.67.1",
   "description": "@galiojs/pro-form",
   "keywords": [
     "antd",
@@ -34,9 +34,9 @@
   "dependencies": {
     "@ant-design/icons": "^4.2.1",
     "@babel/runtime": "^7.16.3",
-    "@galiojs/pro-field": "^1.36.0",
-    "@galiojs/pro-provider": "^1.8.0",
-    "@galiojs/pro-utils": "^1.41.0",
+    "@galiojs/pro-field": "1.36.1",
+    "@galiojs/pro-provider": "1.8.1",
+    "@galiojs/pro-utils": "1.41.1",
     "@umijs/use-params": "^1.0.9",
     "classnames": "^2.2.6",
     "lodash": "^4.17.21",

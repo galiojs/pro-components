@@ -1,6 +1,6 @@
 {
   "name": "@galiojs/pro-utils",
-  "version": "1.41.0",
+  "version": "1.41.1",
   "description": "@galiojs/pro-utils",
   "keywords": [
     "antd",
@@ -34,7 +34,7 @@
   "dependencies": {
     "@ant-design/icons": "^4.3.0",
     "@babel/runtime": "^7.16.3",
-    "@galiojs/pro-provider": "^1.8.0",
+    "@galiojs/pro-provider": "1.8.1",
     "classnames": "^2.2.6",
     "moment": "^2.27.0",
     "rc-util": "^5.0.6",

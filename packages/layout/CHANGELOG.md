@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.38.1](https://github.com/ant-design/pro-components/compare/@galiojs/pro-layout@6.37.0...@galiojs/pro-layout@6.38.1) (2022-04-26)
+
+**Note:** Version bump only for package @galiojs/pro-layout
+
 # 6.37.0 (2022-04-25)
 
 ### Bug Fixes

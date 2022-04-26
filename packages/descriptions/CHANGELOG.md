@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.12.1](https://github.com/ant-design/pro-components/compare/@galiojs/pro-descriptions@1.11.0...@galiojs/pro-descriptions@1.12.1) (2022-04-26)
+
+**Note:** Version bump only for package @galiojs/pro-descriptions
+
 # 1.11.0 (2022-04-25)
 
 ### Bug Fixes

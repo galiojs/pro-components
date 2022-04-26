@@ -1,6 +1,6 @@
 {
   "name": "@galiojs/pro-table",
-  "version": "2.74.0",
+  "version": "2.74.1",
   "description": "🏆 Use Ant Design Table like a Pro!",
   "keywords": [
     "antd",
@@ -34,11 +34,11 @@
   "dependencies": {
     "@ant-design/icons": "^4.1.0",
     "@babel/runtime": "^7.16.3",
-    "@galiojs/pro-card": "^1.22.0",
-    "@galiojs/pro-field": "^1.36.0",
-    "@galiojs/pro-form": "^1.67.0",
-    "@galiojs/pro-provider": "^1.8.0",
-    "@galiojs/pro-utils": "^1.41.0",
+    "@galiojs/pro-card": "1.22.1",
+    "@galiojs/pro-field": "1.36.1",
+    "@galiojs/pro-form": "1.67.1",
+    "@galiojs/pro-provider": "1.8.1",
+    "@galiojs/pro-utils": "1.41.1",
     "classnames": "^2.2.6",
     "moment": "^2.24.0",
     "omit.js": "^2.0.2",

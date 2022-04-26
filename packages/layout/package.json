@@ -1,6 +1,6 @@
 {
   "name": "@galiojs/pro-layout",
-  "version": "6.38.0",
+  "version": "6.38.1",
   "description": "@galiojs/pro-layout",
   "keywords": [
     "antd",
@@ -34,8 +34,8 @@
   "dependencies": {
     "@ant-design/icons": "^4.0.0",
     "@babel/runtime": "^7.16.3",
-    "@galiojs/pro-provider": "^1.8.0",
-    "@galiojs/pro-utils": "^1.41.0",
+    "@galiojs/pro-provider": "1.8.1",
+    "@galiojs/pro-utils": "1.41.1",
     "@umijs/route-utils": "^2.1.0",
     "@umijs/ssr-darkreader": "^4.9.44",
     "@umijs/use-params": "^1.0.9",
