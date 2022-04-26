@@ -9,7 +9,7 @@ import React, {
 import type { FormProps } from 'antd';
 import type { SizeType } from 'antd/lib/config-provider/SizeContext';
 import classNames from 'classnames';
-import { ConfigProvider } from 'antd';
+import { ConfigContext as AntConfigContext } from 'antd/lib/config-provider/context';
 import { FilterDropdown, FieldLabel } from '@galiojs/pro-utils';
 import { useIntl } from '@galiojs/pro-provider';
 import { FilterOutlined } from '@ant-design/icons';
@@ -230,7 +230,7 @@ function LightFilter<T = Record<string, any>>(props: LightFilterProps<T>) {
     footerRender,
     ...reset
   } = props;
-  const { getPrefixCls } = useContext(ConfigProvider.ConfigContext);
+  const { getPrefixCls } = useContext(AntConfigContext);
   const prefixCls = getPrefixCls('pro-form');
   const [values, setValues] = useState<Record<string, any>>(() => {
     return { ...initialValues };

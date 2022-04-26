@@ -1,6 +1,7 @@
 import React, { useState, useContext, useMemo } from 'react';
 import type { SelectProps } from 'antd';
-import { Select, Input, ConfigProvider } from 'antd';
+import { Select, Input } from 'antd';
+import { ConfigContext as AntConfigContext } from 'antd/lib/config-provider/context';
 import { SearchOutlined } from '@ant-design/icons';
 import classNames from 'classnames';
 import { FieldLabel } from '@galiojs/pro-utils';
@@ -60,7 +61,7 @@ const LightSelect: React.ForwardRefRenderFunction<any, SelectProps<any> & LightS
   } = props;
   const { placeholder = label } = props;
   const { label: labelPropsName = 'label', value: valuePropsName = 'value' } = fieldNames || {};
-  const { getPrefixCls } = useContext(ConfigProvider.ConfigContext);
+  const { getPrefixCls } = useContext(AntConfigContext);
   const prefixCls = getPrefixCls('pro-field-select-light-select');
   const [open, setOpen] = useState<boolean>(false);
   const [keyword, setKeyword] = useState<string>('');

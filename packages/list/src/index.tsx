@@ -3,7 +3,7 @@ import type { ListProps, PaginationProps } from 'antd';
 import classNames from 'classnames';
 import type { ProTableProps, ProColumnType, ActionType } from '@galiojs/pro-table';
 import ProTable from '@galiojs/pro-table';
-import { ConfigProvider } from 'antd';
+import { ConfigContext as AntConfigContext } from 'antd/lib/config-provider/context';
 import type { LabelTooltipType } from 'antd/lib/form/FormItemLabel';
 
 import ListView from './ListView';
@@ -107,7 +107,7 @@ function ProList<
 
   useImperativeHandle(rest.actionRef, () => actionRef.current);
 
-  const { getPrefixCls } = useContext(ConfigProvider.ConfigContext);
+  const { getPrefixCls } = useContext(AntConfigContext);
 
   const proTableColumns: ProColumnType<RecordType>[] = useMemo(() => {
     const columns: ProColumnType<RecordType>[] = [];

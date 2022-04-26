@@ -3,7 +3,7 @@ import './index.less';
 import React, { useContext } from 'react';
 import classNames from 'classnames';
 import type { WithFalse } from '../../typings';
-import { ConfigProvider } from 'antd';
+import { ConfigContext as AntConfigContext } from 'antd/lib/config-provider/context';
 
 export type GlobalFooterProps = {
   links?: WithFalse<
@@ -21,7 +21,7 @@ export type GlobalFooterProps = {
 };
 
 export default ({ className, prefixCls, links, copyright, style }: GlobalFooterProps) => {
-  const context = useContext(ConfigProvider.ConfigContext);
+  const context = useContext(AntConfigContext);
   const baseClassName = context.getPrefixCls(prefixCls || 'pro-global-footer');
 
   if (

@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
-import { Alert, Space, ConfigProvider } from 'antd';
+import { Alert, Space } from 'antd';
+import { ConfigContext as AntConfigContext } from 'antd/lib/config-provider/context';
 import './index.less';
 import type { IntlType } from '@galiojs/pro-provider';
 import { useIntl } from '@galiojs/pro-provider';
@@ -56,7 +57,7 @@ function TableAlert<T>({
       intl,
     });
 
-  const { getPrefixCls } = useContext(ConfigProvider.ConfigContext);
+  const { getPrefixCls } = useContext(AntConfigContext);
   const className = getPrefixCls('pro-table-alert');
   if (alertInfoRender === false) {
     return null;

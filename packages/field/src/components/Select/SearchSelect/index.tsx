@@ -1,6 +1,7 @@
 import React, { useContext, useImperativeHandle, useEffect, useRef, useState } from 'react';
 import type { SelectProps } from 'antd';
-import { Select, ConfigProvider } from 'antd';
+import { Select } from 'antd';
+import { ConfigContext as AntConfigContext } from 'antd/lib/config-provider/context';
 import classNames from 'classnames';
 import type { LabeledValue } from 'antd/es/select';
 import type { RequestOptionsType } from '@galiojs/pro-utils';
@@ -122,7 +123,7 @@ const SearchSelect = <T,>(props: SearchSelectProps<T[]>, ref: any) => {
     setSearchValue(propsSearchValue);
   }, [propsSearchValue]);
 
-  const { getPrefixCls } = useContext(ConfigProvider.ConfigContext);
+  const { getPrefixCls } = useContext(AntConfigContext);
 
   const prefixCls = getPrefixCls('pro-filed-search-select', customizePrefixCls);
 

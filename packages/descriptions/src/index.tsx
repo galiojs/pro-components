@@ -1,6 +1,7 @@
 import React, { useContext, useEffect } from 'react';
 import type { DescriptionsProps, FormInstance, FormProps } from 'antd';
-import { Descriptions, Space, Form, ConfigProvider } from 'antd';
+import { Descriptions, Space, Form } from 'antd';
+import { ConfigContext as AntConfigContext } from 'antd/lib/config-provider/context';
 import { EditOutlined, CloseOutlined, CheckOutlined } from '@ant-design/icons';
 import toArray from 'rc-util/lib/Children/toArray';
 import ProForm, { ProFormField } from '@galiojs/pro-form';
@@ -384,7 +385,7 @@ const ProDescriptions = <RecordType extends Record<string, any>, ValueType = 'te
     ...rest
   } = props;
 
-  const context = useContext(ConfigProvider.ConfigContext);
+  const context = useContext(AntConfigContext);
 
   const action = useFetchData<RequestData>(
     async () => {

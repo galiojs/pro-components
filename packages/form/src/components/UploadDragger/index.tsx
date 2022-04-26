@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
-import { Upload, ConfigProvider } from 'antd';
+import { Upload } from 'antd';
+import { ConfigContext as AntConfigContext } from 'antd/lib/config-provider/context';
 import type { DraggerProps, UploadProps } from 'antd/lib/upload';
 import { InboxOutlined } from '@ant-design/icons';
 import type { ProFormFieldItemProps } from '../../interface';
@@ -69,7 +70,7 @@ const BaseProFormUploadDragger: React.FC<ProFormDraggerProps> = React.forwardRef
     },
     ref: any,
   ) => {
-    const context = useContext(ConfigProvider.ConfigContext);
+    const context = useContext(AntConfigContext);
     const baseClassName = context.getPrefixCls('upload');
     // 如果配置了 max ，并且 超过了文件列表的大小，就不展示按钮
     const showUploadButton =

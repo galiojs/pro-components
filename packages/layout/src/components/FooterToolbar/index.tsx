@@ -1,6 +1,6 @@
 import type { ReactNode } from 'react';
 import React, { useContext, useEffect, useMemo } from 'react';
-import { ConfigProvider } from 'antd';
+import { ConfigContext as AntConfigContext } from 'antd/lib/config-provider/context';
 import classNames from 'classnames';
 import omit from 'omit.js';
 
@@ -22,7 +22,7 @@ export type FooterToolbarProps = {
 };
 const FooterToolbar: React.FC<FooterToolbarProps> = (props) => {
   const { children, className, extra, style, renderContent, ...restProps } = props;
-  const { getPrefixCls } = useContext(ConfigProvider.ConfigContext);
+  const { getPrefixCls } = useContext(AntConfigContext);
 
   const prefixCls = props.prefixCls || getPrefixCls('pro');
   const baseClassName = `${prefixCls}-footer-bar`;

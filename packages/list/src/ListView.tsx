@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import type { ListProps, TableColumnType, TableProps } from 'antd';
-import { ConfigProvider, List } from 'antd';
+import { List } from 'antd';
+import { ConfigContext as AntConfigContext } from 'antd/lib/config-provider/context';
 import type { GetRowKey } from 'antd/lib/table/interface';
 import type { ActionType } from '@galiojs/pro-table';
 import type { GetComponentProps } from './index';
@@ -61,7 +62,7 @@ function ListView<RecordType>(props: ListViewProps<RecordType>) {
     ...rest
   } = props;
 
-  const { getPrefixCls } = useContext(ConfigProvider.ConfigContext);
+  const { getPrefixCls } = useContext(AntConfigContext);
 
   const getRowKey = React.useMemo<GetRowKey<RecordType>>((): GetRowKey<RecordType> => {
     if (typeof rowKey === 'function') {

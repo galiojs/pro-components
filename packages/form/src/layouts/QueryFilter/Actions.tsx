@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
-import { Space, ConfigProvider } from 'antd';
+import { Space } from 'antd';
+import { ConfigContext as AntConfigContext } from 'antd/lib/config-provider/context';
 import { DownOutlined } from '@ant-design/icons';
 import type { IntlType } from '@galiojs/pro-provider';
 import { useIntl } from '@galiojs/pro-provider';
@@ -62,7 +63,7 @@ const defaultCollapseRender: ActionsProps['collapseRender'] = (collapsed, _, int
  */
 const Actions: React.FC<ActionsProps> = (props) => {
   const { setCollapsed, collapsed = false, submitter, style } = props;
-  const { getPrefixCls } = useContext(ConfigProvider.ConfigContext);
+  const { getPrefixCls } = useContext(AntConfigContext);
   const intl = useIntl();
 
   const collapseRender = omitBoolean(props.collapseRender) || defaultCollapseRender;

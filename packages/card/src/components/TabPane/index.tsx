@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import type { ProCardTabPaneProps } from '../../type';
-import { Tabs, ConfigProvider } from 'antd';
+import { Tabs } from 'antd';
+import { ConfigContext as AntConfigContext } from 'antd/lib/config-provider/context';
 import classNames from 'classnames';
 import Card from '../Card';
 import './index.less';
@@ -18,7 +19,7 @@ const TabPane: React.FC<ProCardTabPaneProps> = (props) => {
     cardProps,
     ...rest
   } = props;
-  const { getPrefixCls } = useContext(ConfigProvider.ConfigContext);
+  const { getPrefixCls } = useContext(AntConfigContext);
   const prefixCls = getPrefixCls('pro-card-tabpane');
   const tabPaneClassName = classNames(prefixCls, className);
   return (

@@ -7,7 +7,8 @@ import {
   VerticalAlignBottomOutlined,
 } from '@ant-design/icons';
 import type { TableColumnType } from 'antd';
-import { Checkbox, Tree, Popover, ConfigProvider, Tooltip, Space } from 'antd';
+import { Checkbox, Tree, Popover, Tooltip, Space } from 'antd';
+import { ConfigContext as AntConfigContext } from 'antd/lib/config-provider/context';
 import classNames from 'classnames';
 import type { DataNode } from 'antd/lib/tree';
 import omit from 'omit.js';
@@ -351,7 +352,7 @@ function ColumnSetting<T>(props: ColumnSettingProps<T>) {
   const indeterminate = unCheckedKeys.length > 0 && unCheckedKeys.length !== localColumns.length;
 
   const intl = useIntl();
-  const { getPrefixCls } = useContext(ConfigProvider.ConfigContext);
+  const { getPrefixCls } = useContext(AntConfigContext);
   const className = getPrefixCls('pro-table-column-setting');
   return (
     <Popover

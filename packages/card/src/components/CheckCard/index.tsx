@@ -1,6 +1,7 @@
 import React, { useEffect, useMemo, useContext } from 'react';
 import classNames from 'classnames';
-import { Avatar, ConfigProvider } from 'antd';
+import { Avatar } from 'antd';
+import { ConfigContext as AntConfigContext } from 'antd/lib/config-provider/context';
 import { useMountMergeState } from '@galiojs/pro-utils';
 import CheckCardGroup, { CardLoading, CheckCardGroupConnext } from './Group';
 import type { CheckCardGroupProps } from './Group';
@@ -129,7 +130,7 @@ const CheckCard: React.FC<CheckCardProps> & {
     },
   );
   const checkcardGroup = useContext(CheckCardGroupConnext);
-  const { getPrefixCls } = useContext(ConfigProvider.ConfigContext);
+  const { getPrefixCls } = useContext(AntConfigContext);
 
   const handleClick = (e: any) => {
     props?.onClick?.(e);

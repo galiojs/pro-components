@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { ConfigProvider } from 'antd';
+import { ConfigContext as AntConfigContext } from 'antd/lib/config-provider/context';
 import classNames from 'classnames';
 
 import './index.less';
@@ -26,7 +26,7 @@ export type ProCardDividerProps = {
 };
 
 const ProCardDivider: React.FC<ProCardDividerProps> = (props) => {
-  const { getPrefixCls } = useContext(ConfigProvider.ConfigContext);
+  const { getPrefixCls } = useContext(AntConfigContext);
   const prefixCls = getPrefixCls('pro-card-divider');
 
   const { className, style = {}, type } = props;

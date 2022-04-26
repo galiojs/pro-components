@@ -1,5 +1,6 @@
 import React, { useContext, useImperativeHandle } from 'react';
-import { Space, ConfigProvider } from 'antd';
+import { Space } from 'antd';
+import { ConfigContext as AntConfigContext } from 'antd/lib/config-provider/context';
 import type { ProFieldFC } from '../../index';
 
 const addArrayKeys = (doms: React.ReactNode[]) =>
@@ -21,7 +22,7 @@ const addArrayKeys = (doms: React.ReactNode[]) =>
  * @param
  */
 const FieldOptions: ProFieldFC = ({ text, mode: type, render, fieldProps }, ref) => {
-  const { getPrefixCls } = useContext(ConfigProvider.ConfigContext);
+  const { getPrefixCls } = useContext(AntConfigContext);
   const className = getPrefixCls('pro-field-option');
 
   useImperativeHandle(ref, () => ({}));

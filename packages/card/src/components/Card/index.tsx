@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
-import { Grid, Tabs, ConfigProvider } from 'antd';
+import { Grid, Tabs } from 'antd';
+import { ConfigContext as AntConfigContext } from 'antd/lib/config-provider/context';
 import { RightOutlined } from '@ant-design/icons';
 import useMergedState from 'rc-util/lib/hooks/useMergedState';
 import { LabelIconTip } from '@galiojs/pro-utils';
@@ -50,7 +51,7 @@ const Card = React.forwardRef((props: CardProps, ref: any) => {
     type,
     ...rest
   } = props;
-  const { getPrefixCls } = useContext(ConfigProvider.ConfigContext);
+  const { getPrefixCls } = useContext(AntConfigContext);
   const screens = useBreakpoint();
 
   const [collapsed, setCollapsed] = useMergedState<boolean>(defaultCollapsed, {

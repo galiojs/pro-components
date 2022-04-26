@@ -3,7 +3,8 @@ import type { CSSProperties } from 'react';
 import { useCallback } from 'react';
 import React, { useContext, useEffect, useMemo, useState } from 'react';
 import type { BreadcrumbProps as AntdBreadcrumbProps } from 'antd/lib/breadcrumb';
-import { Layout, ConfigProvider } from 'antd';
+import { Layout } from 'antd';
+import { ConfigContext as AntConfigContext } from 'antd/lib/config-provider/context';
 import classNames from 'classnames';
 import warning from 'warning';
 import useMergedState from 'rc-util/lib/hooks/useMergedState';
@@ -359,7 +360,7 @@ const BasicLayout: React.FC<BasicLayoutProps> = (props) => {
     formatMessage: propsFormatMessage,
     loading,
   } = props || {};
-  const context = useContext(ConfigProvider.ConfigContext);
+  const context = useContext(AntConfigContext);
   const prefixCls = props.prefixCls ?? context.getPrefixCls('pro');
 
   const [menuLoading, setMenuLoading] = useMountMergeState(false, {

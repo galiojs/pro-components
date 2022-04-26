@@ -1,6 +1,7 @@
 import React, { createContext, useCallback, useMemo, useRef, useContext } from 'react';
 import classNames from 'classnames';
-import { ConfigProvider, Row, Col } from 'antd';
+import { Row, Col } from 'antd';
+import { ConfigContext as AntConfigContext } from 'antd/lib/config-provider/context';
 import omit from 'omit.js';
 import CheckCard from './index';
 import './index.less';
@@ -201,7 +202,7 @@ const CheckCardGroup: React.FC<CheckCardGroupProps> = (props) => {
     ...restProps
   } = props;
 
-  const antdContext = useContext(ConfigProvider.ConfigContext);
+  const antdContext = useContext(AntConfigContext);
 
   const getOptions = useCallback(() => {
     return (options as CheckCardOptionType[])?.map((option) => {

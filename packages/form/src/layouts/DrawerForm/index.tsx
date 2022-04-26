@@ -1,6 +1,6 @@
 ﻿import React, { useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react';
 import type { DrawerProps, FormProps } from 'antd';
-import { ConfigProvider } from 'antd';
+import { ConfigContext as AntConfigContext } from 'antd/lib/config-provider/context';
 import { Drawer } from 'antd';
 import useMergedState from 'rc-util/lib/hooks/useMergedState';
 import { createPortal } from 'react-dom';
@@ -69,7 +69,7 @@ function DrawerForm<T = Record<string, any>>({
     'DrawerForm 是一个 ProForm 的特殊布局，如果想自定义按钮，请使用 submit.render 自定义。',
   );
 
-  const context = useContext(ConfigProvider.ConfigContext);
+  const context = useContext(AntConfigContext);
 
   const [, forceUpdate] = useState([]);
   const [loading, setLoading] = useState(false);

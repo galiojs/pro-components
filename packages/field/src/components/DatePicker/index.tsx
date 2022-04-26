@@ -1,5 +1,6 @@
 import type { DatePickerProps } from 'antd';
 import { DatePicker, ConfigProvider } from 'antd';
+import { ConfigContext as AntConfigContext } from 'antd/lib/config-provider/context';
 import React, { useState, useContext } from 'react';
 import moment from 'moment';
 import { useIntl } from '@galiojs/pro-provider';
@@ -37,7 +38,7 @@ const FieldDatePicker: ProFieldFC<{
 ) => {
   const intl = useIntl();
   const size = useContext(ConfigProvider.SizeContext);
-  const { getPrefixCls } = useContext(ConfigProvider.ConfigContext);
+  const { getPrefixCls } = useContext(AntConfigContext);
   const prefixCls = getPrefixCls('pro-field-date-picker');
   const [open, setOpen] = useState<boolean>(false);
 

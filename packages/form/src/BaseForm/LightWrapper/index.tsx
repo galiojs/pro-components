@@ -7,7 +7,7 @@ import {
   dateArrayFormatter,
   dateFormatterMap,
 } from '@galiojs/pro-utils';
-import { ConfigProvider } from 'antd';
+import { ConfigContext as AntConfigContext } from 'antd/lib/config-provider/context';
 import type { Placement } from '../../interface';
 
 import './index.less';
@@ -65,7 +65,7 @@ const LightWrapper: React.ForwardRefRenderFunction<any, LightWrapperProps> = (pr
     ...rest
   } = props;
 
-  const { getPrefixCls } = useContext(ConfigProvider.ConfigContext);
+  const { getPrefixCls } = useContext(AntConfigContext);
   const prefixCls = getPrefixCls('pro-field-light-wrapper');
   const [tempValue, setTempValue] = useState<string | undefined>(props[valuePropName!]);
   const [open, setOpen] = useMountMergeState<boolean>(false);

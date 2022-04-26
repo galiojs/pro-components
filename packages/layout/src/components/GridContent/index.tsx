@@ -3,7 +3,7 @@ import './GridContent.less';
 import type { CSSProperties } from 'react';
 import React, { useContext } from 'react';
 import classNames from 'classnames';
-import { ConfigProvider } from 'antd';
+import { ConfigContext as AntConfigContext } from 'antd/lib/config-provider/context';
 
 import RouteContext from '../../RouteContext';
 import type { PureSettings } from '../../defaultSettings';
@@ -26,7 +26,7 @@ const GridContent: React.FC<GridContentProps> = (props) => {
   const value = useContext(RouteContext);
   const { children, contentWidth: propsContentWidth, className: propsClassName, style } = props;
 
-  const { getPrefixCls } = useContext(ConfigProvider.ConfigContext);
+  const { getPrefixCls } = useContext(AntConfigContext);
   const prefixCls = props.prefixCls || getPrefixCls('pro');
   const contentWidth = propsContentWidth || value.contentWidth;
   const className = `${prefixCls}-grid-content`;

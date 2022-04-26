@@ -8,7 +8,8 @@ import React, {
 } from 'react';
 import type { StepsProps, FormInstance } from 'antd';
 import { Col, Row } from 'antd';
-import { Form, Steps, ConfigProvider, Button, Space } from 'antd';
+import { Form, Steps, Button, Space } from 'antd';
+import { ConfigContext as AntConfigContext } from 'antd/lib/config-provider/context';
 import toArray from 'rc-util/lib/Children/toArray';
 import type { FormProviderProps } from 'antd/lib/form/context';
 import useMergedState from 'rc-util/lib/hooks/useMergedState';
@@ -136,7 +137,7 @@ function StepsForm<T = Record<string, any>>(
     children: any;
   },
 ) {
-  const { getPrefixCls } = useContext(ConfigProvider.ConfigContext);
+  const { getPrefixCls } = useContext(AntConfigContext);
   const prefixCls = getPrefixCls('pro-steps-form');
 
   const {

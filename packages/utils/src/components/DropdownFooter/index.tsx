@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
-import { Button, ConfigProvider } from 'antd';
+import { Button } from 'antd';
+import { ConfigContext as AntConfigContext } from 'antd/lib/config-provider/context';
 import { useIntl } from '@galiojs/pro-provider';
 
 import './index.less';
@@ -24,7 +25,7 @@ export type DropdownFooterProps = {
 const DropdownFooter: React.FC<DropdownFooterProps> = (props) => {
   const intl = useIntl();
   const { onClear, onConfirm, disabled, footerRender } = props;
-  const { getPrefixCls } = useContext(ConfigProvider.ConfigContext);
+  const { getPrefixCls } = useContext(AntConfigContext);
   const prefixCls = getPrefixCls('pro-core-dropdown-footer');
   const defaultFooter = [
     <Button

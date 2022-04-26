@@ -1,5 +1,6 @@
 import React, { useCallback, useContext, useMemo } from 'react';
-import { Space, ConfigProvider } from 'antd';
+import { Space } from 'antd';
+import { ConfigContext as AntConfigContext } from 'antd/lib/config-provider/context';
 import { RightOutlined } from '@ant-design/icons';
 import FieldContext from '../../FieldContext';
 import type { GroupProps } from '../../interface';
@@ -35,7 +36,7 @@ const Group: React.FC<GroupProps> = React.forwardRef((props, ref: any) => {
     value: props.collapsed,
     onChange: props.onCollapse,
   });
-  const { getPrefixCls } = useContext(ConfigProvider.ConfigContext);
+  const { getPrefixCls } = useContext(AntConfigContext);
 
   const { ColWrapper, RowWrapper } = useGridHelpers(props);
 

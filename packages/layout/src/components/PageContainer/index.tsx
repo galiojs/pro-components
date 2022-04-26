@@ -1,4 +1,5 @@
-import { PageHeader, Tabs, Affix, ConfigProvider, Breadcrumb } from 'antd';
+import { PageHeader, Tabs, Affix, Breadcrumb } from 'antd';
+import { ConfigContext as AntConfigContext } from 'antd/lib/config-provider/context';
 import type { ReactNode } from 'react';
 import React, { useContext, useMemo } from 'react';
 import classNames from 'classnames';
@@ -275,7 +276,7 @@ const PageContainer: React.FC<PageContainerProps> = (props) => {
   } = props;
   const value = useContext(RouteContext);
 
-  const { getPrefixCls } = useContext(ConfigProvider.ConfigContext);
+  const { getPrefixCls } = useContext(AntConfigContext);
   const prefixCls = props.prefixCls || getPrefixCls('pro');
 
   const prefixedClassName = `${prefixCls}-page-container`;

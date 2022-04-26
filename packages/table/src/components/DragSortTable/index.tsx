@@ -5,7 +5,7 @@ import ProTable from '../../Table';
 import { SortableHandle } from 'react-sortable-hoc';
 import { MenuOutlined } from '@ant-design/icons';
 import type { ProColumns, ProTableProps } from '../../typing';
-import { ConfigProvider } from 'antd';
+import { ConfigContext as AntConfigContext } from 'antd/lib/config-provider/context';
 import './index.less';
 
 export type DragTableProps<T, U> = {
@@ -35,7 +35,7 @@ function DragSortTable<
     dataSource: oriDs,
     ...otherProps
   } = props;
-  const { getPrefixCls } = useContext(ConfigProvider.ConfigContext);
+  const { getPrefixCls } = useContext(AntConfigContext);
 
   // 默认拖拽把手
   const DragHandle = useMemo(

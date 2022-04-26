@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { ConfigProvider } from 'antd';
+import { ConfigContext as AntConfigContext } from 'antd/lib/config-provider/context';
 import Card from '../Card';
 import type { CardProps } from '../../type';
 import classNames from 'classnames';
@@ -32,7 +32,7 @@ const StatisticCard: React.FC<StatisticCardProps> & {
   Group: typeof Group;
 } = (props) => {
   const { children, statistic, className, chart, chartPlacement, footer, ...others } = props;
-  const { getPrefixCls } = useContext(ConfigProvider.ConfigContext);
+  const { getPrefixCls } = useContext(AntConfigContext);
   const prefixCls = getPrefixCls('pro-statistic-card');
   const classString = classNames(prefixCls, className);
 

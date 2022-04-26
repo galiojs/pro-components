@@ -9,6 +9,7 @@ import React, {
 } from 'react';
 import type { TablePaginationConfig } from 'antd';
 import { Table, Spin, ConfigProvider } from 'antd';
+import { ConfigContext as AntConfigContext } from 'antd/lib/config-provider/context';
 import ProCard from '@galiojs/pro-card';
 
 import type { ParamsType } from '@galiojs/pro-provider';
@@ -859,7 +860,7 @@ const ProviderWarp = <
 >(
   props: ProTableProps<DataType, Params, ValueType>,
 ) => {
-  const { getPrefixCls } = useContext(ConfigProvider.ConfigContext);
+  const { getPrefixCls } = useContext(AntConfigContext);
   const ErrorComponent =
     props.ErrorBoundary === false ? React.Fragment : props.ErrorBoundary || ErrorBoundary;
   return (

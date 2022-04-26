@@ -1,4 +1,5 @@
 import { DatePicker, TimePicker, ConfigProvider } from 'antd';
+import { ConfigContext as AntConfigContext } from 'antd/lib/config-provider/context';
 import React, { useState, useContext } from 'react';
 import moment from 'moment';
 import { FieldLabel, parseValueToMoment } from '@galiojs/pro-utils';
@@ -15,7 +16,7 @@ const FieldTimePicker: ProFieldFC<{
 }> = ({ text, mode, light, label, format, render, renderFormItem, plain, fieldProps }, ref) => {
   const [open, setOpen] = useState<boolean>(false);
   const size = useContext(ConfigProvider.SizeContext);
-  const { getPrefixCls } = useContext(ConfigProvider.ConfigContext);
+  const { getPrefixCls } = useContext(AntConfigContext);
   const prefixCls = getPrefixCls('pro-field-date-picker');
 
   const finalFormat = fieldProps?.format || format || 'HH:mm:ss';

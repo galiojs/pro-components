@@ -3,7 +3,8 @@ import type { ReactElement } from 'react';
 import { useContext } from 'react';
 import React, { useMemo } from 'react';
 import type { FormItemProps, RowProps } from 'antd';
-import { Row, Col, Form, Divider, ConfigProvider } from 'antd';
+import { Row, Col, Form, Divider } from 'antd';
+import { ConfigContext as AntConfigContext } from 'antd/lib/config-provider/context';
 import type { FormInstance, FormProps } from 'antd/lib/form/Form';
 import RcResizeObserver from 'rc-resize-observer';
 import { useIntl } from '@galiojs/pro-provider';
@@ -420,7 +421,7 @@ function QueryFilter<T = Record<string, any>>(props: QueryFilterProps<T>) {
     ...rest
   } = props;
 
-  const context = useContext(ConfigProvider.ConfigContext);
+  const context = useContext(AntConfigContext);
   const baseClassName = context.getPrefixCls('pro-form-query-filter');
 
   const [width, setWidth] = useMountMergeState(

@@ -10,6 +10,7 @@ import React, {
 } from 'react';
 import type { SelectProps } from 'antd';
 import { Space, Spin, ConfigProvider } from 'antd';
+import { ConfigContext as AntConfigContext } from 'antd/lib/config-provider/context';
 import type {
   ProFieldRequestData,
   ProFieldValueEnumType,
@@ -126,7 +127,7 @@ const Highlight: React.FC<{
   label: string;
   words: string[];
 }> = ({ label, words }) => {
-  const { getPrefixCls } = useContext(ConfigProvider.ConfigContext);
+  const { getPrefixCls } = useContext(AntConfigContext);
   const lightCls = getPrefixCls('pro-select-item-option-content-light');
   const optionCls = getPrefixCls('pro-select-item-option-content');
   const matchKeywordsRE = new RegExp(

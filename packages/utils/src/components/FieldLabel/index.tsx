@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { DownOutlined, CloseOutlined } from '@ant-design/icons';
 import classNames from 'classnames';
 import type { SizeType } from 'antd/lib/config-provider/SizeContext';
-import { ConfigProvider } from 'antd';
+import { ConfigContext as AntConfigContext } from 'antd/lib/config-provider/context';
 import { useIntl } from '@galiojs/pro-provider';
 import './index.less';
 
@@ -37,7 +37,7 @@ const FieldLabel: React.FC<FieldLabelProps> = (props) => {
     bordered,
     allowClear = true,
   } = props;
-  const { getPrefixCls } = useContext(ConfigProvider.ConfigContext);
+  const { getPrefixCls } = useContext(AntConfigContext);
   const prefixCls = getPrefixCls('pro-core-field-label');
   const intl = useIntl();
 

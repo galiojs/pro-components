@@ -1,5 +1,6 @@
 ﻿import React, { useState, useEffect, useContext } from 'react';
-import { Form, Popover, ConfigProvider } from 'antd';
+import { Form, Popover } from 'antd';
+import { ConfigContext as AntConfigContext } from 'antd/lib/config-provider/context';
 import type { FormItemProps, PopoverProps } from 'antd';
 import type { NamePath } from 'rc-field-form/lib/interface';
 import './index.less';
@@ -31,7 +32,7 @@ const InlineErrorFormItem: React.FC<{
 }> = ({ inputProps, input, extra, errorList, popoverProps }) => {
   const [visible, setVisible] = useState<boolean | undefined>(false);
   const [errorStringList, setErrorList] = useState<string[]>([]);
-  const { getPrefixCls } = useContext(ConfigProvider.ConfigContext);
+  const { getPrefixCls } = useContext(AntConfigContext);
 
   useEffect(() => {
     if (inputProps.validateStatus !== 'validating') {

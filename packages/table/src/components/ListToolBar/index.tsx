@@ -1,6 +1,7 @@
 import React, { useContext, useMemo } from 'react';
 import type { TabPaneProps } from 'antd';
-import { Tooltip, Space, Input, ConfigProvider, Tabs } from 'antd';
+import { Tooltip, Space, Input, Tabs } from 'antd';
+import { ConfigContext as AntConfigContext } from 'antd/lib/config-provider/context';
 import { useIntl } from '@galiojs/pro-provider';
 import useAntdMediaQuery from 'use-media-antd-query';
 import classNames from 'classnames';
@@ -166,7 +167,7 @@ const ListToolBar: React.FC<ListToolBarProps> = ({
     );
   }, [placeholder, onSearch, search]);
 
-  const { getPrefixCls } = useContext(ConfigProvider.ConfigContext);
+  const { getPrefixCls } = useContext(AntConfigContext);
   const prefixCls = getPrefixCls('pro-table-list-toolbar', customizePrefixCls);
 
   /** 轻量筛选组件 */

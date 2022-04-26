@@ -1,6 +1,7 @@
 ﻿import { CopyOutlined, DeleteOutlined } from '@ant-design/icons';
 import { ProFormContext } from '@galiojs/pro-utils';
-import { ConfigProvider, Form } from 'antd';
+import { Form } from 'antd';
+import { ConfigContext as AntConfigContext } from 'antd/lib/config-provider/context';
 import type { LabelTooltipType } from 'antd/lib/form/FormItemLabel';
 import type { FormListFieldData, FormListOperation, FormListProps } from 'antd/lib/form/FormList';
 import type { NamePath } from 'antd/lib/form/interface';
@@ -102,7 +103,7 @@ const ProFormList: React.FC<ProFormListProps> = ({
   ...rest
 }) => {
   const actionRefs = useRef<FormListOperation>();
-  const context = useContext(ConfigProvider.ConfigContext);
+  const context = useContext(AntConfigContext);
   const listContext = useContext(FormListContext);
   const baseClassName = context.getPrefixCls('pro-form-list');
 

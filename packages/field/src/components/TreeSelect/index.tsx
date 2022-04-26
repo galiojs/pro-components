@@ -1,6 +1,7 @@
 import React, { useContext, useMemo, useImperativeHandle, useRef, useState } from 'react';
 import type { RadioGroupProps, TreeSelectProps } from 'antd';
-import { ConfigProvider, Spin, TreeSelect } from 'antd';
+import { Spin, TreeSelect } from 'antd';
+import { ConfigContext as AntConfigContext } from 'antd/lib/config-provider/context';
 import classNames from 'classnames';
 import type { ProFieldFC } from '../../index';
 import type { FieldSelectProps } from '../Select';
@@ -22,7 +23,7 @@ const FieldTreeSelect: ProFieldFC<GroupProps> = (
   { radioType, renderFormItem, mode, light, render, ...rest },
   ref,
 ) => {
-  const { getPrefixCls } = useContext(ConfigProvider.ConfigContext);
+  const { getPrefixCls } = useContext(AntConfigContext);
   const layoutClassName = getPrefixCls('pro-field-tree-select');
   const coreStyleClassName = getPrefixCls('pro-core-field-label');
   const treeSelectRef = useRef(null);

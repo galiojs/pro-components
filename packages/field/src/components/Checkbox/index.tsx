@@ -1,5 +1,6 @@
 ﻿import React, { useContext, useImperativeHandle, useRef } from 'react';
-import { Checkbox, ConfigProvider, Space, Spin } from 'antd';
+import { Checkbox, Space, Spin } from 'antd';
+import { ConfigContext as AntConfigContext } from 'antd/lib/config-provider/context';
 import classNames from 'classnames';
 import type { CheckboxGroupProps } from 'antd/lib/checkbox';
 import type { ProFieldFC } from '../../index';
@@ -23,7 +24,7 @@ const FieldCheckbox: ProFieldFC<GroupProps> = (
   { layout = 'horizontal', renderFormItem, mode, render, ...rest },
   ref,
 ) => {
-  const { getPrefixCls } = useContext(ConfigProvider.ConfigContext);
+  const { getPrefixCls } = useContext(AntConfigContext);
   const layoutClassName = getPrefixCls('pro-field-checkbox');
   const [loading, options, fetchData] = useFieldFetchData(rest);
   const checkBoxRef = useRef();

@@ -1,6 +1,7 @@
 ﻿import React, { useContext, useMemo, useImperativeHandle, useRef } from 'react';
 import type { RadioGroupProps } from 'antd';
-import { ConfigProvider, Cascader } from 'antd';
+import { Cascader } from 'antd';
+import { ConfigContext as AntConfigContext } from 'antd/lib/config-provider/context';
 import { LoadingOutlined } from '@ant-design/icons';
 import classNames from 'classnames';
 import type { ProFieldFC } from '../../index';
@@ -23,7 +24,7 @@ const FieldCascader: ProFieldFC<GroupProps> = (
   { radioType, renderFormItem, mode, render, light, ...rest },
   ref,
 ) => {
-  const { getPrefixCls } = useContext(ConfigProvider.ConfigContext);
+  const { getPrefixCls } = useContext(AntConfigContext);
   const layoutClassName = getPrefixCls('pro-field-cascader');
   const coreStyleClassName = getPrefixCls('pro-core-field-label');
   const [loading, options, fetchData] = useFieldFetchData(rest);

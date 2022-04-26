@@ -1,5 +1,6 @@
 import React, { useContext, useMemo } from 'react';
-import { List, Avatar, Skeleton, ConfigProvider } from 'antd';
+import { List, Avatar, Skeleton } from 'antd';
+import { ConfigContext as AntConfigContext } from 'antd/lib/config-provider/context';
 import type { ProCardProps } from '@galiojs/pro-card';
 import type { GetComponentProps } from './index';
 import ProCard from '@galiojs/pro-card';
@@ -101,7 +102,7 @@ export type ItemProps<RecordType> = {
 
 function ProListItem<RecordType>(props: ItemProps<RecordType>) {
   const { prefixCls: customizePrefixCls } = props;
-  const { getPrefixCls } = useContext(ConfigProvider.ConfigContext);
+  const { getPrefixCls } = useContext(AntConfigContext);
   const prefixCls = getPrefixCls('pro-list', customizePrefixCls);
   const defaultClassName = `${prefixCls}-row`;
 

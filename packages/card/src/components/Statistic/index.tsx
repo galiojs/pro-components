@@ -3,7 +3,7 @@ import classNames from 'classnames';
 import { Statistic as AntdStatistic, Tooltip, Badge } from 'antd';
 import type { BadgeProps } from 'antd/lib/badge';
 import type { StatisticProps as AntdStatisticProps } from 'antd/lib/statistic/Statistic';
-import { ConfigProvider } from 'antd';
+import { ConfigContext as AntConfigContext } from 'antd/lib/config-provider/context';
 import { QuestionCircleOutlined } from '@ant-design/icons';
 
 import './index.less';
@@ -53,7 +53,7 @@ const Statistic: React.FC<StatisticProps> = (props) => {
     ...others
   } = props;
 
-  const { getPrefixCls } = useContext(ConfigProvider.ConfigContext);
+  const { getPrefixCls } = useContext(AntConfigContext);
   const prefixCls = getPrefixCls('pro-card-statistic');
   const classString = classNames(prefixCls, className);
   const statusClass = classNames(`${prefixCls}-status`);

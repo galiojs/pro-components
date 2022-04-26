@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useContext } from 'react';
-import { ConfigProvider } from 'antd';
+import { ConfigContext as AntConfigContext } from 'antd/lib/config-provider/context';
 import classNames from 'classnames';
 
 export type WaterMarkProps = {
@@ -93,7 +93,7 @@ const WaterMark: React.FC<WaterMarkProps> = (props) => {
     prefixCls: customizePrefixCls,
   } = props;
 
-  const { getPrefixCls } = useContext(ConfigProvider.ConfigContext);
+  const { getPrefixCls } = useContext(AntConfigContext);
   const prefixCls = getPrefixCls('pro-layout-watermark', customizePrefixCls);
   const wrapperCls = classNames(`${prefixCls}-wrapper`, className);
   const waterMakrCls = classNames(prefixCls, markClassName);

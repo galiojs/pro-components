@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import { InfoCircleOutlined } from '@ant-design/icons';
-import { Tooltip, ConfigProvider } from 'antd';
+import { Tooltip } from 'antd';
+import { ConfigContext as AntConfigContext } from 'antd/lib/config-provider/context';
 import './index.less';
 import type { LabelTooltipType, WrapperTooltipProps } from 'antd/lib/form/FormItemLabel';
 import classNames from 'classnames';
@@ -17,7 +18,7 @@ const LabelIconTip: React.FC<{
   ellipsis?: boolean;
 }> = (props) => {
   const { label, tooltip, ellipsis, subTitle } = props;
-  const { getPrefixCls } = useContext(ConfigProvider.ConfigContext);
+  const { getPrefixCls } = useContext(AntConfigContext);
 
   if (!tooltip && !subTitle) {
     return <>{label}</>;

@@ -1,5 +1,6 @@
 import React, { useContext, useEffect } from 'react';
 import { ConfigProvider as AntdConfigProvider } from 'antd';
+import { ConfigContext as AntConfigContext } from 'antd/lib/config-provider/context';
 import { useSWRConfig, SWRConfig } from 'swr';
 import zh_CN from 'antd/lib/locale/zh_CN';
 
@@ -265,7 +266,7 @@ const ConfigProviderWrap: React.FC<Record<string, unknown>> = ({
   children,
   autoClearCache = false,
 }) => {
-  const { locale } = useContext(AntdConfigProvider.ConfigContext);
+  const { locale } = useContext(AntConfigContext);
   // 如果 locale 不存在自动注入的 AntdConfigProvider
   const Provider = locale === undefined ? AntdConfigProvider : React.Fragment;
 
@@ -314,7 +315,7 @@ const ConfigProviderWrap: React.FC<Record<string, unknown>> = ({
 export { ConfigConsumer, ConfigProvider, ConfigProviderWrap, createIntl };
 
 export function useIntl(): IntlType {
-  const { locale } = useContext(AntdConfigProvider.ConfigContext);
+  const { locale } = useContext(AntConfigContext);
   const { intl } = useContext(ConfigContext);
 
   if (intl && intl.locale !== 'default') {

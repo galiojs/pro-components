@@ -1,7 +1,7 @@
 ﻿import React, { useContext, useMemo } from 'react';
 import type { FormInstance, FormItemProps } from 'antd';
 import { Table } from 'antd';
-import { ConfigProvider } from 'antd';
+import { ConfigContext as AntConfigContext } from 'antd/lib/config-provider/context';
 import type { BaseQueryFilterProps, ProFormProps } from '@galiojs/pro-form';
 import classNames from 'classnames';
 import omit from 'omit.js';
@@ -139,7 +139,7 @@ const FormRender = <T, U = any>({
     }
   };
 
-  const { getPrefixCls } = useContext(ConfigProvider.ConfigContext);
+  const { getPrefixCls } = useContext(AntConfigContext);
 
   const columnsList = useMemo(() => {
     return columns

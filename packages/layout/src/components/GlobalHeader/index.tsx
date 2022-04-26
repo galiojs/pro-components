@@ -14,7 +14,7 @@ import TopNavHeader from '../TopNavHeader';
 import type { MenuDataItem } from '../../index';
 import type { WithFalse } from '../../typings';
 import { clearMenuItem } from '../../utils/utils';
-import { ConfigProvider } from 'antd';
+import { ConfigContext as AntConfigContext } from 'antd/lib/config-provider/context';
 
 export type GlobalHeaderProps = {
   collapsed?: boolean;
@@ -87,7 +87,7 @@ const GlobalHeader: React.FC<GlobalHeaderProps & PrivateSiderMenuProps> = (props
     menuData,
     prefixCls,
   } = props;
-  const { direction } = useContext(ConfigProvider.ConfigContext);
+  const { direction } = useContext(AntConfigContext);
   const baseClassName = `${prefixCls}-global-header`;
   const className = classNames(propClassName, baseClassName, {
     [`${baseClassName}-layout-${layout}`]: layout && headerTheme === 'dark',

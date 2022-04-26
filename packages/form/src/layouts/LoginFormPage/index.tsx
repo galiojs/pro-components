@@ -1,4 +1,4 @@
-import { ConfigProvider } from 'antd';
+import { ConfigContext as AntConfigContext } from 'antd/lib/config-provider/context';
 import React, { useContext, useMemo } from 'react';
 import type { ProFormProps } from '../ProForm';
 import { ProForm } from '../ProForm';
@@ -90,7 +90,7 @@ export function LoginFormPage<T = Record<string, any>>(props: Partial<LoginFormP
     ...proFormProps.submitter,
   } as ProFormProps['submitter'];
 
-  const context = useContext(ConfigProvider.ConfigContext);
+  const context = useContext(AntConfigContext);
   const baseClassName = context.getPrefixCls('pro-form-login-page');
   const getCls = (className: string) => `${baseClassName}-${className}`;
 

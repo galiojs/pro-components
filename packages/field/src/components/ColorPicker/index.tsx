@@ -3,7 +3,7 @@ import { SketchPicker } from '@chenshuai2144/sketch-color';
 import React, { useContext } from 'react';
 import useMergedState from 'rc-util/lib/hooks/useMergedState';
 import type { PopoverProps } from 'antd';
-import { ConfigProvider } from 'antd';
+import { ConfigContext as AntConfigContext } from 'antd/lib/config-provider/context';
 import { Popover } from 'antd';
 import type { ProFieldFC } from '../../index';
 
@@ -29,7 +29,7 @@ const ColorPicker: React.FC<
     colors?: string[];
   }
 > = ({ mode, popoverProps, ...rest }) => {
-  const { getPrefixCls } = useContext(ConfigProvider.ConfigContext);
+  const { getPrefixCls } = useContext(AntConfigContext);
   const prefixCls = getPrefixCls('pro-field-color-picker');
   const [color, setColor] = useMergedState('#1890ff', {
     value: rest.value,

@@ -1,6 +1,7 @@
 ﻿import React, { useContext, useImperativeHandle, useRef } from 'react';
 import type { RadioGroupProps } from 'antd';
-import { Radio, ConfigProvider, Spin } from 'antd';
+import { Radio, Spin } from 'antd';
+import { ConfigContext as AntConfigContext } from 'antd/lib/config-provider/context';
 import classNames from 'classnames';
 import type { ProFieldFC } from '../../index';
 
@@ -23,7 +24,7 @@ const FieldRadio: ProFieldFC<GroupProps> = (
   { radioType, renderFormItem, mode, render, ...rest },
   ref,
 ) => {
-  const { getPrefixCls } = useContext(ConfigProvider.ConfigContext);
+  const { getPrefixCls } = useContext(AntConfigContext);
   const layoutClassName = getPrefixCls('pro-field-radio');
   const [loading, options, fetchData] = useFieldFetchData(rest);
   const radioRef = useRef();
