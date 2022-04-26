@@ -4,12 +4,7 @@ import type { Moment } from 'moment';
 import React, { useEffect, useRef } from 'react';
 import moment from 'moment';
 import type { ProFormInstance } from '@galiojs/pro-form';
-import {
-  ProFormDateRangePicker,
-  ProFormSelect,
-  ProFormText,
-  StepsForm,
-} from '@galiojs/pro-form';
+import { ProFormDateRangePicker, ProFormSelect, ProFormText, StepsForm } from '@galiojs/pro-form';
 
 type FormValue = {
   jobInfo: {
